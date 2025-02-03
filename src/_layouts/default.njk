@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth md:scroll-auto">
   <head>
     <!-- Recommended -->
     <meta charset="utf-8" />
@@ -29,8 +29,16 @@
       href="{{ '/favicon-16x16.png' | url }}"
     />
     <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+    <link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+/>
     <title>{{ title or metadata.title }}</title>
 
     <link rel="stylesheet" href="{{ '/site.css' | url }}" />
@@ -40,5 +48,11 @@
     {% include "navigation.njk" %}
     {{ content | safe }}
     {% include "footer.njk" %}
+
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    <script type="module">
+      import { Ripple, initTWE, } from "tw-elements";
+      initTWE( { Ripple });
+    </script>
   </body>
 </html>

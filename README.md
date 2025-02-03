@@ -1,9 +1,9 @@
-# windty 🌬️
+# forum2025.diglib.org 🌬️
 
-Windty is a basic template using 11ty and Tailwind, and deploys to github pages.
+This is the DLF Forum 2025 website.
 
 ## How to use
-1. [Create a new repo from windty’s template](https://github.com/distantcam/windty/generate), or [clone this one](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+1. [Clone this repository](https://github.com/clirdlf/forum2025.diglib.org.git)
 2. Install dependencies: `npm install`
 3. Start development: `npm start`
 4. See your website at http://localhost:8080/

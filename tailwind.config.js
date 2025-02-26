@@ -6,7 +6,11 @@ module.exports = withMT({
     //"./node_modules/tw-elements/js/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'bronze': '##ca8a04'
+      }
+    },
   },
   //plugins: [ require("tw-elements/plugin.cjs") ],
   darkMode: "class"

@@ -4,39 +4,23 @@
     <!-- Recommended -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+      <title>{{ title or metadata.title }}</title>
     <!-- Meta -->
     <meta name="description" content="{{ metadata.description }}" />
     <meta name="generator" content="{{ eleventy.generator }}" />
 
     <!-- Icons -->
     <!-- https://favicon.io/ -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="{{ '/apple-touch-icon.png' }}"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="{{ '/favicon-32x32.png'  }}"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{{ '/favicon-16x16.png'  }}"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png'  }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png'  }}" />
     <link rel="manifest" href="{{ '/site.webmanifest'  }}" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
 
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
-/>
-    <title>{{ title or metadata.title }}</title>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
 
     <link rel="stylesheet" href="{{ '/site.css' }}" />
   </head>

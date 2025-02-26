@@ -1,5 +1,6 @@
 const fs = require("fs");
 const htmlmin = require("html-minifier-terser");
+const { type } = require("os");
 
 module.exports = function(eleventyConfig) {
 
@@ -17,6 +18,16 @@ module.exports = function(eleventyConfig) {
   if (process.env.GITHUB_REPOSITORY) {
     pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
   }
+
+  eleventyConfig.addFilter("usd", function(value) {
+    if (typeof value !== 'number') {
+      return "Invalid Input";
+    }
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    }).format(value);
+  });
 
   return {
     dir: {

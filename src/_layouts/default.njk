@@ -21,6 +21,15 @@
     <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
 
     <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.google_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ metadata.google_id }}');
+    </script>
 
     <link rel="stylesheet" href="{{ '/site.css' }}" />
   </head>

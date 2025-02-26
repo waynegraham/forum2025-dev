@@ -1,0 +1,54 @@
+[
+    {
+        "benefits": [
+            "Company name on the Forum website",
+            "Acknowledgement from the podium during plenaries",
+            "Logo on signage in conference meeting area",
+            "2 social media mentions"
+        ],
+        "level": "Bronze",
+        "color": "amber-900",
+        "description": "",
+        "cost": 1000
+    },
+    {
+        "benefits": [
+        "Exhibitor table",
+        "Company logo and about text on event website",
+        "Opted-in attendee email addresses",
+        "1 ticket to the CLIR events for your team",
+        "Company name on pocket schedule",
+        "3 social media mentions",
+        "1 custom banner in event emails"
+        ],
+        "level": "Silver",
+        "color": "gray-500",
+        "cost": 2500,
+        "description": "In addition to all Bronze benefits, Silver sponsorship includes"
+    },
+    {
+        "benefits": [
+        "Named sponsor for one breakfast or lunch during the event",
+        "2 tickets to the CLIR events for your team",
+        "4 social media mentions",
+        "2 custom banners in event emails"
+        ],
+        "level": "Gold",
+        "color": "yellow-400",
+        "cost": 5000,
+        "description": "In addition to all Silver benefits, Gold sponsorship includes"
+
+    },
+    {
+        "benefits": [
+        "Named signature event sponsor for the DLF Forum reception or plenaries",
+        "Featured sponsor blog post on event website",
+        "5 social media mentions",
+        "3 custom banners in event emails"
+        ],
+        "level": "Platinum",
+        "color": "sky-400",
+        "cost": 7500,
+        "description": "In addition to all Gold benefits, Platinum sponsorship includes"
+    }
+]

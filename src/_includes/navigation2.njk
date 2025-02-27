@@ -1,7 +1,7 @@
 <nav class="block w-full max-w-screen-2xl rounded-xl py-4 px-8 shadow-md w-full max-w-full rounded-none px-4 bg-transparent text-white shadow-none bg-transparent">
     <div class="container mx-auto flex items-center justify-between text-blue-gray-900">
         <a href="/" class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 mr-4 cursor-pointer text-lg font-bold">
-            {{ metadata.title }}
+            <img eleventy:ignore src="/static/DLF-forum-black.png" alt="DLF Forum" class="h-10">
         </a>
         <div class="hidden lg:block">
             <ul class="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
@@ -15,7 +15,7 @@
             </ul>
         </div>
 
-        <button class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-blue-gray-500 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 ml-auto inline-block text-blue-gray-900 lg:hidden" type="button" data-ripple-dark="true" data-collapse-target="navbar">
+        <button aria-label="navigation" class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-blue-gray-500 hover:bg-blue-gray-500/10 active:bg-blue-gray-500/30 ml-auto inline-block text-blue-gray-900 lg:hidden" type="button" data-ripple-dark="true" data-collapse-target="navbar">
             <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="h-6 w-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>

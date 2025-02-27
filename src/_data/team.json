@@ -2,31 +2,31 @@
     {
         "name": "Aliya Reich",
         "role": "Program Manager for Conferences &amp; Events",
-        "image": "Aliya.jpg"
+        "image": "static/Aliya.jpg"
     },
     {
         "name": "Lizzi Albert",
         "role": "Community Relations Manager, CLIR",
-        "image": "Lizzi-Albert.jpg"
+        "image": "static/Lizzi-Albert.jpg"
     },
     {
         "name": "Julie Beroukas Snyder",
         "role": "Chief Development Officer, CLIR",
-        "image": "Julie.jpg"
+        "image": "static/Julie.jpg"
     },
     {
         "name": "Alice Rubin",
         "role": "Program Officer, Strategic Initiatives",
-        "image": "Alice.jpg"
+        "image": "static/Alice.jpg"
     },
     {
         "name": "Jenn Cummings",
         "role": "CONCENTRA-CMS",
-        "image": "jenn.jpg"
+        "image": "static/jenn.jpg"
     },
     {
         "name": "Wayne Graham",
         "role": "Interim Director, DLF",
-        "image": "Wayne.jpg"
+        "image": "static/Wayne.jpg"
     }
 ]

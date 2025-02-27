@@ -2,12 +2,16 @@ const fs = require("fs");
 const htmlmin = require("html-minifier-terser");
 const { type } = require("os");
 
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const { format } = require("path");
+
 module.exports = function(eleventyConfig) {
 
   if (process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.addTransform("htmlmin", htmlminTransform);
   }
 
+  // Preprocessors
   eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
@@ -15,7 +19,7 @@ module.exports = function(eleventyConfig) {
 	});
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy({ "src/static": "." });
+  eleventyConfig.addPassthroughCopy({ "src/static": "./static/" });
 
   // Watch targets
   eleventyConfig.addWatchTarget("./src/styles/");
@@ -25,6 +29,7 @@ module.exports = function(eleventyConfig) {
     pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
   }
 
+  // Filters
   eleventyConfig.addFilter("usd", function(value) {
     if (typeof value !== 'number') {
       return "Invalid Input";
@@ -33,6 +38,22 @@ module.exports = function(eleventyConfig) {
       style: 'currency',
       currency: 'USD',
     }).format(value);
+  });
+
+  // Plugins
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    formats: ["avif", "webp", "jpeg"],
+    // output image widths
+		widths: ["auto"],
+
+		// optional, attributes assigned on <img> nodes override these values
+		htmlOptions: {
+			imgAttributes: {
+				loading: "lazy",
+				decoding: "async",
+			},
+			pictureAttributes: {}
+		},
   });
 
   return {

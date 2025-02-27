@@ -8,6 +8,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addTransform("htmlmin", htmlminTransform);
   }
 
+  eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+			return false;
+		}
+	});
+
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "." });
 

@@ -2,6 +2,7 @@
 title: Learn@DLF
 layout: page.njk
 image: ""
+draft: true
 ---
 
 <section class="py-10 px-8 min-h-screen grid">

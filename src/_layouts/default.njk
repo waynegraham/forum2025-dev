@@ -18,32 +18,30 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
 
-    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.google_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', '{{ metadata.google_id }}');
     </script>
-
+    
     <link rel="stylesheet" href="{{ '/site.css' }}" />
   </head>
 
   <body class="font-sans leading-normal tracking-normal text-gray-900">
-    {# {% include "navigation.njk" %} #}
+    {% include "navigation2.njk" %}
     {{ content | safe }}
     {% include "footer.njk" %}
-
-    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
-    
-    <script type="module">
-    //  import { Ripple, initTWE, } from "tw-elements";
-    //  initTWE( { Ripple });
-    </script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/collapse.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/dialog.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/dismissable.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/popover.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/tabs.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/tooltip.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/ripple.js"></script>
   </body>
 </html>

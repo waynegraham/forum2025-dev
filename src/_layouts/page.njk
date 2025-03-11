@@ -5,7 +5,10 @@ layout: default.njk
 <!-- Hero Section -->
 <header class="h-96 bg-cover bg-center relative" style="background-image: url('{{ image }}');">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-        <h1 class="text-white text-4xl md:text-6xl font-bold">{{ title }}</h1>
+        {# <h1 class="text-white text-4xl md:text-6xl font-bold"> #}
+        <h1 class="block font-sans text-4xl font-semibold !leading-snug tracking-normal text-white antialiased lg:text-5xl">
+            {{ title }}
+        </h1>
     </div>
 </header>
 

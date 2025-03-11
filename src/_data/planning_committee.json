@@ -1,0 +1,284 @@
+[
+  {
+    "first_name": "Alisha",
+    "last_name": "Baginski",
+    "affiliation": "University of Nebraska-Lincoln",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Amanda",
+    "last_name": "Boczar",
+    "affiliation": "University of South Florida",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Amber",
+    "last_name": "Bales",
+    "affiliation": "Ohio State University ",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Andrea",
+    "last_name": "Schuler",
+    "affiliation": "Tufts University",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Angelina (Lina)",
+    "last_name": "Crowe",
+    "affiliation": "Carnegie Mellon University Libraries",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Ann Marie",
+    "last_name": "Mesco",
+    "affiliation": "Carnegie Mellon University Libraries",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Kaetz",
+    "affiliation": "University of Alabama at Birmingham",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Craft",
+    "affiliation": "University of North Carolina at Greensboro",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Barbara",
+    "last_name": "Laufersweiler",
+    "affiliation": "University of Oklahoma",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Biz",
+    "last_name": "Gallo",
+    "affiliation": "Library of Michigan",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Brian",
+    "last_name": "Luna Lucero",
+    "affiliation": "Columbia University Libraries",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Cara",
+    "last_name": "Key",
+    "affiliation": "Oregon State University",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Carol",
+    "last_name": "Kassel",
+    "affiliation": "New York University",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Carol",
+    "last_name": "Ng-He",
+    "affiliation": "Rosalind Franklin University of Medicine and Science",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Carrie ",
+    "last_name": "Pirmann",
+    "affiliation": "Bucknell University",
+    "committees": "Program Committee, Community Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Chaeyeon ",
+    "last_name": "Kim",
+    "affiliation": "Society of American Archivists ",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Christina",
+    "last_name": "Miskey",
+    "affiliation": "University of Nevada, Las Vegas",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Deborah",
+    "last_name": "Caldwell",
+    "affiliation": "University of North Texas",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Dhanushka",
+    "last_name": "Samarakoon",
+    "affiliation": "University of Miami",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Diane",
+    "last_name": "Goldenberg-Hart",
+    "affiliation": "Coalition for Networked Information (CNI)",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Eleni",
+    "last_name": "Castro",
+    "affiliation": "Boston University Libraries",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Esther",
+    "last_name": "Jackson",
+    "affiliation": "Columbia University Libraries",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Helene",
+    "last_name": "Williams",
+    "affiliation": "Emeritus teaching professor at University of Washington",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Jessica",
+    "last_name": "Venlet",
+    "affiliation": "University of Michigan Library",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Jocelyne",
+    "last_name": "Caldera",
+    "affiliation": "Guilford Technical Community College",
+    "committees": "Program Committee, Community Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Joshua",
+    "last_name": "Hogan",
+    "affiliation": "Georgia State University (Special Collections & Archives)",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Kate ",
+    "last_name": "Boyd",
+    "affiliation": "University of South Carolina Libraries",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Kelly",
+    "last_name": "Riddle",
+    "affiliation": "Clemson University",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Kyle",
+    "last_name": "Denlinger",
+    "affiliation": "Wake Forest University",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Larry",
+    "last_name": "Eames",
+    "affiliation": "University of Colorado Colorado Springs",
+    "committees": "Program Committee, Community Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Laura",
+    "last_name": "Wilson",
+    "affiliation": "British Library/Former CLIR Postdoc Fellow",
+    "committees": "Program Committee, Community Committee"
+  },
+  {
+    "first_name": "Lee",
+    "last_name": "Woodward",
+    "affiliation": "City of La Porte, Texas, as a member of NAGARA and ICRM",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Lindsey",
+    "last_name": "Memory",
+    "affiliation": "Brigham Young University",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Mary",
+    "last_name": "Girard",
+    "affiliation": "Norfolk State University",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Meagan",
+    "last_name": "Doyle",
+    "affiliation": "Bowdoin College",
+    "committees": "Program Committee, Community Committee"
+  },
+  {
+    "first_name": "Meg",
+    "last_name": "Moody",
+    "affiliation": "University of Rochester",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Melde",
+    "last_name": "Rutledge",
+    "affiliation": "Wake Forest University",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Nicole",
+    "last_name": "Finzer",
+    "affiliation": "Northwestern University",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Pennington",
+    "last_name": "Ahlstrand",
+    "affiliation": "Computer History Museum",
+    "committees": "Program Committee, Community Committee"
+  },
+  {
+    "first_name": "Rachel",
+    "last_name": "Starry",
+    "affiliation": "University of Pittsburgh",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Rachel",
+    "last_name": "Jaffe",
+    "affiliation": "University of California, Santa Cruz",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Raeshawn",
+    "last_name": "McGuffie",
+    "affiliation": "Hampton University - Harvey Library",
+    "committees": "Program Committee"
+  },
+  {
+    "first_name": "Robyn",
+    "last_name": "Ness",
+    "affiliation": "University of Michigan, Library Information Technology",
+    "committees": "Program Committee, Reviewer Only"
+  },
+  {
+    "first_name": "Shannon",
+    "last_name": "Willis",
+    "affiliation": "Texas State University",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Sudha",
+    "last_name": "Anand",
+    "affiliation": "Indiana University",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Theresa",
+    "last_name": "Hessey",
+    "affiliation": "University of Delaware",
+    "committees": "Reviewer Only"
+  },
+  {
+    "first_name": "Warren ",
+    "last_name": "Lambert",
+    "affiliation": "University of Kansas Libraries",
+    "committees": "Program Committee"
+  }
+]

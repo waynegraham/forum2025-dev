@@ -22,6 +22,7 @@
 
     {# <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet"/> #}
     <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.google_id }}"></script>
@@ -36,10 +37,14 @@
   </head>
 
   <body class="font-sans leading-normal tracking-normal text-gray-900">
-    {% include "navigation2.njk" %}
+    {% include "navigation3.njk" %}
     {{ content | safe }}
+    {% include "scroll-top-button.njk" %}
     {% include "footer.njk" %}
-    <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/collapse.js"></script>
+    <script src="/assets/js/main.js"></script>
+    {# <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/collapse.js"></script> #}
     <script src="https://unpkg.com/@material-tailwind/html@2.3.2/scripts/ripple.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
   </body>
 </html>

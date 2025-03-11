@@ -7,28 +7,28 @@
                 <button class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-white text-blue-gray-900 shadow-md shadow-blue-gray-500/10 hover:shadow-lg hover:shadow-blue-gray-500/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button">buy ticket</button>
             </div>
         </div> #}
-        <div class="flex flex-col md:flex-row items-center !justify-between">
+        <div id="footer-nav" aria-label="Main" class="flex flex-col md:flex-row items-center !justify-between">
             <a href="https://forum2025.diglib.org/" class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-gray-900">{{ metadata.title }}</a>
-            {# <ul class="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
+            <ul class="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
                 <li>
                     <a href="/about/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">About</a>
                 </li>
                 <li>
                     <a href="/schedule/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Schedule</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/learn-at-dlf/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Learn@DLF</a>
-                </li>
+                </li>-->
                 <li>
                     <a href="/resources/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Resources</a>
                 </li>
                 <li>
-                    <a href="/activities/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Activities</a>
+                    <a href="/speakers/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Speakers</a>
                 </li>
                 <li>
                     <a href="/sponsors/" class="block antialiased font-sans text-sm leading-normal text-white font-normal !text-gray-700 hover:!text-gray-900 transition-colors">Sponsors</a>
                 </li>
-            </ul> #}
+            </ul>
             <div class="flex w-fit justify-center gap-2">
                 <a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/company/digital-library-federation/" class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-gray-900 hover:bg-gray-900/10 active:bg-gray-900/20" type="button">
                     <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
@@ -50,10 +50,20 @@
                         <i class="fa-brands fa-github text-lg"></i>
                     </span>
                 </a>
+
+                <!--
+                <a href="#buttons-with-link">
+                    <button class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-gray-900 hover:bg-gray-900/10 active:bg-gray-900/20" type="button" data-ripple-dark="true">
+                        <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                            <i class="fa-brands fa-github text-lg text-gray-500 transition-colors hover:text-blue-gray-900"></i>
+                        </span>
+                    </button>
+                </a>
+                -->
             </div>
         </div>
-        <p class="block antialiased font-sans text-base leading-relaxed text-blue-gray-900 text-center mt-12 font-normal !text-gray-700">
+        {# <p class="block antialiased font-sans text-base leading-relaxed text-blue-gray-900 text-center mt-12 font-normal !text-gray-700">
             &copy; 2025 Made by <a class="underline" href="https://www.clir.org" target="_blank">CLIR</a>.
-        </p>
+        </p> #}
     </div>
 </footer>

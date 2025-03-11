@@ -16,12 +16,12 @@ draft: true
         Learn@DLF 2025
       </h2>
       <p
-        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal mb-12 !text-gray-500"
+        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal mb-12 !text-gray-600"
       >
         We are excited to host Learn@DLF on Sunday, November xx, 2025, to cultivate creative training and professional development opportunities for attendees.
       </p>
       <p
-        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal  mb-12 !text-gray-500"
+        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal  mb-12 !text-gray-600"
       >
         Learn@DLF will be structured entirely as a workshop day. Through engaging, hands-on sessions, attendees will gain experience with new tools and resources, exchange ideas, and develop and share expertise with fellow community members.
       </p>
@@ -31,7 +31,7 @@ draft: true
         Workshop Format
       </h2>
       <p
-        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal !text-gray-500"
+        class="block antialiased font-sans leading-relaxed text-inherit text-base !font-normal !text-gray-600"
       >
        Learn@DLF workshops are in-depth, hands-on training sessions on specific tools, techniques, workflows, or concepts. Q&A and discussion are incorporated throughout in an interactive and inclusive format. Learn@DLF workshops are three hours long in total, composed of two 90-minute halves with a 15 minute break between.
       </p>

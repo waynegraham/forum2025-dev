@@ -1,3 +1,6 @@
 node_modules/
 _site/
 .cache
+.jekyll-cache
+.venv
+scratch.html

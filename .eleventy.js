@@ -3,7 +3,12 @@ const htmlmin = require("html-minifier-terser");
 const { type } = require("os");
 
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
 const { format } = require("path");
+
+// 11ty plugins
+const eleventyPluginHubspot = require('eleventy-plugin-hubspot');
 
 module.exports = function(eleventyConfig) {
 
@@ -20,6 +25,7 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "src/static": "./static/" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/": "./assets/"});
 
   // Watch targets
   eleventyConfig.addWatchTarget("./src/styles/");
@@ -54,6 +60,13 @@ module.exports = function(eleventyConfig) {
 			},
 			pictureAttributes: {}
 		},
+  });
+
+  //https://www.11ty.dev/docs/plugins/navigation/
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  eleventyConfig.addPlugin(eleventyPluginHubspot, {
+    portalId: 20251227
   });
 
   return {

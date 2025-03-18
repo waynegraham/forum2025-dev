@@ -47,7 +47,8 @@ eleventyNavigation:
     </div>
 </section>
 
-<section id="special-thanks" class="py-16 px-8 lg:py-28">
+
+{# <section id="local-organizing-committee" class="py-16 px-8 lg:py-28">
     <div class="container mx-auto grid items-center lg:grid-cols-2">
         <div class="row-start-2 mt-12 lg:row-auto lg:mt-0 lg:pr-12">
             <p class="mb-4 block font-sans text-base !font-semibold leading-relaxed text-blue-gray-900 antialiased">
@@ -80,10 +81,11 @@ eleventyNavigation:
         </div>
         <img eleventy:widths="200,600" src="/static/marcel-fx39Iesd13M-unsplash.jpg" alt="love" class="h-full min-h-[50vh] w-full rounded-xl object-cover object-center md:min-h-[75vh]"/>
     </div>
-</section>
+</section>  #}
 
+{#
 <section id="planning-committee" class="mx-auto container max-w-6xl flex w-full flex-col items-center px-8 py-10">
-            <hr class="mb-8 border-t border-blue-gray-300 w-1/4 mx-auto" />
+    <hr class="mb-8 border-t border-blue-gray-300 w-1/4 mx-auto" />
 
     <div class="text-center mb-8 lg:mb-16">
         <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">
@@ -102,21 +104,12 @@ eleventyNavigation:
         {% for volunteer in planning_committee %}
             <p>{{volunteer.first_name}} {{volunteer.last_name}} - {{ volunteer.affiliation }}</p>
         {% endfor %}
-
     </div>
-
-    <!-- Committee List 
-    <ul class="mt-6 text-blue-gray-800 font-medium">
-        {% for volunteer in planning_committee %}
-            <li>{{volunteer.first_name}} {{volunteer.last_name}}- {{ volunteer.affiliation }}</li>
-        {% endfor %}
-    </ul>-->
-
 </section>
+#}
 
 
-
-<section id="planning-committee" class="mx-auto container max-w-6xl flex w-full flex-col items-center px-8 py-10">
+{# <section id="planning-committee" class="mx-auto container max-w-6xl flex w-full flex-col items-center px-8 py-10">
         <hr class="mb-8 border-t border-blue-gray-300 w-1/4 mx-auto" />
 
     <div class="text-center mb-8 lg:mb-16">
@@ -136,11 +129,11 @@ eleventyNavigation:
             </a>
             </p>
     </div>
-</section>
+</section> #}
 
 
-<!-- 
-<section id="team" class="py-10 px-8 lg:py-28">
+
+{# <section id="team" class="py-10 px-8 lg:py-28">
     <h2 class="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 my-4 font-black text-4xl !leading-snug">
         Registration Fees
     </h2>
@@ -169,4 +162,4 @@ eleventyNavigation:
       <p class="text-lg font-medium text-gray-800">Isabella Green, Library X</p>
     </div>
   </div>
-</section> -->
+</section>  #}

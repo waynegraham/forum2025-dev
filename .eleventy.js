@@ -98,7 +98,8 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(eleventyPluginHubspot, {
-    portalId: 20251227
+    portalId: 20251227,
+    loadingMode: "lazy",
   });
 
   // https://www.11ty.dev/docs/plugins/id-attribute/

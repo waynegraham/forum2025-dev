@@ -54,6 +54,11 @@ module.exports = async function(eleventyConfig) {
     }).format(value);
   });
 
+  // https://11ty.rocks/eleventyjs/data-arrays/#randomitem-filter
+  eleventyConfig.addFilter("randomItem", (arr) => {
+    return arr[Math.floor(Math.random() * arr.length)];
+  });
+
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
 		if (!Array.isArray(array) || array.length === 0) {

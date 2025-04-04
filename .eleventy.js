@@ -56,7 +56,15 @@ module.exports = async function(eleventyConfig) {
 
   // https://11ty.rocks/eleventyjs/data-arrays/#randomitem-filter
   eleventyConfig.addFilter("randomItem", (arr) => {
-    return arr[Math.floor(Math.random() * arr.length)];
+
+    if (!Array.isArray(arr) || arr.length === 0) {
+      return [];
+    }
+
+    arr.sort(() => {
+      return 0.5 - Math.random();
+    });
+    return arr.slice(0, 1);
   });
 
   // Get the first `n` elements of a collection.

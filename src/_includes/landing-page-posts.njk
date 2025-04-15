@@ -5,7 +5,7 @@
         <p class="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mx-auto w-full px-4 !text-gray-600 lg:w-8/12 lg:px-8">Keep up to date on all DLF Forum 2025 communications</p>
     </div>
     <div class="container mx-auto grid grid-cols-1 items-start gap-y-20 gap-x-8 px-8 pt-10 pb-16 md:grid-cols-2 lg:grid-cols-3">
-        {%- for post in collections.post -%}
+        {%- for post in collections.post | reverse | head(3) -%}
             <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                 <div class="relative bg-clip-border mx-4 rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg -mt-6 h-64">
                     <img eleventy:widths="200,600" src="{{ post.data.image }}" alt="{{ post.data.title }}" class="h-full w-full object-cover"/>

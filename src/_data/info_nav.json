@@ -1,0 +1,34 @@
+[
+    {
+        "title": "For Attendees",
+        "link": "/resources/for-attendees/"
+    }, 
+    {
+        "title": "For Presenters",
+        "link": "/resources/for-presenters/"
+    },
+    {
+        "title": "For Sponsors",
+        "link": "/resources/sponsors/"
+    },
+    {
+        "title": "Scholarships",
+        "link": "/resources/scholarships/"
+    },
+    {
+        "title": "Venue",
+        "link": "/resources/venue/"
+    },
+    {
+        "title": "Lodging and Transportation",
+        "link": "/resources/lodging-and-transportation/"
+    },
+    {
+        "title": "For Volunteers",
+        "link": "/resources/volunteers/"
+    },
+    {
+        "title": "Social Activities",
+        "link": "/resources/social-activities/"
+    }
+]

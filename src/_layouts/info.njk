@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="flex pt-24 pb-12 px-44">
+    <div class="w-1/4 ml-auto">
+        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full">
+            <div class="p-6">
+                {% for item in info_nav %}
+                    <a href="{{ item.link }}">
+                        <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit mb-2">{{ item.title }}</h6>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="w-2/3 ml-12 mr-auto">
+        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
+            <div class="p-6">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+
+</section>

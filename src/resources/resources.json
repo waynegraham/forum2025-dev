@@ -1,4 +1,5 @@
 {
-    "layout": "post",
-    "tags": "resources"
+    "layout": "info",
+    "tags": "resources",
+    "draft": "true"
 }

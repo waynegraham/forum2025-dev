@@ -40,8 +40,8 @@
         "Link and organization description (along with logo) on conference website",
         "One additional public mention / thank-you on CLIR and DLF LinkedIn pages (4,000 followers)",
         "Opted-in attendee email addresses (typically up to 250 people)",
-        "One “From Our Partner” email sent to Forum newsletter list (up to 2,900 people)",
-        "One “From Our Partner” email sent to attendees (up to 500 people)",
+        "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to Forum newsletter list (up to 2,900 people)",
+        "One <a class='underline' href='#sponsor-emails'>“From Our Partner”</a> email sent to attendees (up to 500 people)",
         "Two (2) complimentary tickets to the DLF Forum for your team ($1,600 value)",
         "Named sponsor of the conference reception with name, logo, and QR code on two 24” x 36” signs to be on display during the event",
         "Exhibit table at conference reception and in exhibit hall"

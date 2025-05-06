@@ -3,6 +3,9 @@ title: Prospectus
 layout: page.njk
 image: "/static/CLIRT-11.webp"
 draft: false
+eleventyNavigation:
+  key: Prospectus
+  order: 6
 preload: 
     - /static/CLIRT-11.webp
 ---
@@ -973,8 +976,9 @@ preload:
         <div class="rounded-lg shadow-lg bg-white p-8 border border-gray-200">
           <h3 class="text-2xl font-semibold text-gray-900" id="{{ sponsorship.level | lower}}">{{ sponsorship.level }}</h3>
           <p class="text-3xl font-bold text-blue-700 mt-2">{{ sponsorship.cost | usd }}</p>
-          <p class="text-lg text-gray-700 mt-4">Standard benefits, plus:</p>
-
+          {% if sponsorship.level != 'Bronze' %}
+            <p class="text-lg text-gray-700 mt-4">Standard benefits, plus:</p>
+          {% endif %}
           <ul class="my-6 flex flex-col gap-3 pt-6">
             {% for benefit in sponsorship.benefits %}
               <li class="flex items-center gap-2 text-gray-700">
@@ -1038,7 +1042,7 @@ preload:
 
   <h3 class="text-2xl font-semibold text-gray-900">“From Our Partner” Emails</h3>
 
-     <p class="mt-4 text-lg text-gray-700">
+    <p class="mt-4 text-lg text-gray-700">
       High-level sponsors have the opportunity to <strong>share a message</strong> about their products and services through our <strong>“From Our Partner”</strong> email program. As a valued sponsor, you'll gain exclusive access to our attendee base through direct email sent by DLF. We understand the importance of reaching your target audience effectively, and our email marketing benefit is designed to maximize your visibility and engagement. 
     </p>
 

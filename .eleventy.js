@@ -8,12 +8,22 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime"); // https://github.com/5t3ph/eleventy-plugin-emoji-readtime
 
 const { format } = require("path");
+const CleanCSS = require("clean-css");
 
 // 11ty plugins
 const eleventyPluginHubspot = require('eleventy-plugin-hubspot');
 
 module.exports = async function(eleventyConfig) {
-  const { IdAttributePlugin } = await import("@11ty/eleventy");
+  const { IdAttributePlugin, HtmlBasePlugin } = await import("@11ty/eleventy");
+  const { default: branchName } = await import("current-git-branch");
+
+  eleventyConfig.addBundle("css");
+  eleventyConfig.addBundle("js");
+
+  // const branch = process.env.GIT_BRANCH || 'main';
+  const branch = branchName() || 'main';
+
+  console.log("Branch: ", branch);
 
   if (process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.addTransform("htmlmin", htmlminTransform);
@@ -38,7 +48,7 @@ module.exports = async function(eleventyConfig) {
     pathPrefix = process.env.GITHUB_REPOSITORY.split('/')[1];
   }
 
-  // Shortcodes
+  // Plugins
   eleventyConfig.addPlugin(emojiReadTime, {
 		emoji: "📖",
 	});
@@ -52,6 +62,11 @@ module.exports = async function(eleventyConfig) {
       style: 'currency',
       currency: 'USD',
     }).format(value);
+  });
+
+  // @see https://www.11ty.dev/docs/quicktips/inline-css/
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
   });
 
   // https://11ty.rocks/eleventyjs/data-arrays/#randomitem-filter
@@ -109,6 +124,7 @@ module.exports = async function(eleventyConfig) {
 
   //https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(HtmlBasePlugin);
 
   eleventyConfig.addPlugin(eleventyPluginHubspot, {
     portalId: 20251227,
@@ -141,9 +157,10 @@ module.exports = async function(eleventyConfig) {
     dir: {
       input: "src",
       layouts: "_layouts",
-      includes: "_includes"
+      includes: "_includes",
+
     },
-    pathPrefix
+    pathPrefix: branch === 'dev' ? '/forum2025-dev/' : '',
   }
 };
 

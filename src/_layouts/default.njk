@@ -34,10 +34,20 @@
     </script>
     
     <link media="screen" rel="stylesheet" href="{{ '/site.css' }}" />
+    <style>{% getBundle "css" %}</style>
   </head>
 
   <body class="font-sans leading-normal tracking-normal text-gray-900">
     {% include "navigation3.njk" %}
+
+
+   {% if cover %}
+      {% css %}
+        #hero {
+          background-image: url({{ cover | url }});
+        }
+      {% endcss %}
+    {%endif %}
     {{ content | safe }}
     {% include "scroll-top-button.njk" %}
     {% include "footer.njk" %}

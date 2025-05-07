@@ -1,7 +1,7 @@
 ---
 title: Learn@DLF
 layout: page.njk
-image: ""
+cover: ""
 draft: true
 ---
 

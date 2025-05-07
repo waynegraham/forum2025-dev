@@ -1,6 +1,6 @@
 ---
 title: Activities
 layout: page.njk
-image: ""
+cover: ""
 draft: true
 ---

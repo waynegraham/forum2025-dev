@@ -2,17 +2,21 @@
     
     <div class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
     {%- for post in collections.post | reverse -%}
-    <a href="{{ post.url }}">
+    <a href="{{ post.url }}" class="group">
         <div class="flex-col bg-clip-border bg-transparent text-gray-700 shadow-md relative grid min-h-[30rem] items-end overflow-hidden rounded-xl">
-        <img eleventy:widths="200,600" src="{{ post.data.image }}" alt="bg" class="absolute inset-0 h-full w-full object-cover object-center" />
-        <div class="absolute inset-0 bg-black/70"></div>
-        <div class="p-6 relative flex flex-col justify-end">
-            <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">
-                {{ post.data.title }}
-            </h4>
-            <p class="block antialiased font-sans text-base leading-relaxed text-white my-2 font-normal">
-                {{ post.data.blurb }}
-            </p>
+            <img eleventy:widths="200,600" src="{{ post.data.cover }}" alt="bg" class="absolute inset-0 h-full w-full object-cover object-center" />
+            
+            <!-- Overlay background with hover effect -->
+            <div class="absolute inset-0 bg-black/70 group-hover:bg-black/30 transition-colors duration-300"></div>
+            
+            <div class="p-6 relative flex flex-col justify-end">
+                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-white">
+                    {{ post.data.title }}
+                </h4>
+                <p class="block antialiased font-sans text-base leading-relaxed text-white my-2 font-normal">
+                    {{ post.data.blurb }}
+                </p>
+            </div>
         </div>
     </a>
     {%- endfor -%}

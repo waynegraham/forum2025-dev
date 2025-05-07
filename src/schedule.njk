@@ -8,7 +8,40 @@ eleventyNavigation:
   order: 3
 ---
 
-<section class="container mx-auto px-8 py-10">
+<div class="mb-8">
+  <a href="https://dlfforum2025.sched.com/" target="_blank" class="middle none center rounded-lg bg-black py-3 px-6 font-sans text-lg font-bold text-white shadow-md shadow-black/20 transition-all hover:shadow-lg hover:shadow-black/40 focus:opacity-[0.85] active:opacity-[0.85]">
+    View on Sched
+  </a>
+</div>
+
+<div class="container mx-auto px-4 py-8">
+  <h2 class="text-3xl font-bold text-gray-900 mb-8">📅 Sunday, 16 November 2025</h2>
+
+  {% for session in sessions %}
+  <div class="mb-6 rounded-lg shadow-md border border-blue-gray-100">
+    <div class="bg-blue-gray-50 px-6 py-4 flex flex-col md:flex-row md:items-center justify-between">
+      <span class="text-md font-semibold text-blue-gray-800">🕘 {{ session.time }}</span>
+      <h3 class="text-md font-bold text-blue-700 mt-2 md:mt-0">{{ session.id }}: {{ session.title }}</h3>
+    </div>
+    <div class="px-6 py-4">
+      <p class="font-semibold text-gray-900 mb-1">{{ session.title }}</p>
+      <p class="text-gray-700 text-sm mb-2">
+        {% for author in session.authors %}
+          <span class="underline">{{ author.name }}</span><sup>{{ loop.index }}</sup>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p class="text-gray-600 text-sm mb-3">
+        {% for author in session.authors %}
+          <sup>{{ loop.index }}</sup>{{ author.affiliation }}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p class="text-sm text-gray-800">{{ session.abstract }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{# <section class="container mx-auto px-8 py-10">
     <!-- <img eleventy:widths="600,1080"  src="/static/samuel-regan-asante-Rk8fHGGeyr8-unsplash.jpg" alt="background image" class="max-h-[600px] w-full rounded-2xl object-cover" /> -->
     <div class="text-center">
     <h2 class="block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 lg:!text-4xl !text-3xl mt-10">
@@ -22,7 +55,7 @@ eleventyNavigation:
     <div class="text-center">
         {% hubspotForm "32171a7d-ba40-4711-8221-2d4e403eab2a" %}
     </div>
-</section>
+</section> #}
 
 <!-- <section id="coming-soon" class="grid px-8 place-items-center gap-6 lg:grid-cols-2">
     <div class="my-6 lg:block hidden">

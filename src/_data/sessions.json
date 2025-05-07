@@ -1,0 +1,63 @@
+[
+  {
+    "id": "S01",
+    "title": "Sunset Planning: Lessons and Tools for Responsible Stewardship of Collaborative Infrastructure",
+    "time": "9:00am - 12:15pm",
+    "authors": [
+      { "name": "Snowden Becker", "affiliation": "LOCKSS Program, Stanford Libraries" },
+      { "name": "Jackson Huang", "affiliation": "Educopia" },
+      { "name": "Alex Kinnaman", "affiliation": "Virginia Tech" },
+      { "name": "Zach Vowell", "affiliation": "Cal Poly San Luis Obispo" },
+      { "name": "Christine Wiseman", "affiliation": "AUC Woodruff Library" }
+    ],
+    "abstract": "Sharing lessons from the sunset of the twenty-year-old digital preservation network MetaArchive, this workshop provides tools to help community-based digital infrastructure and projects anticipate endings and pivotal changes as a part of holistic sustainability planning; express core values; and address diverse member needs as part of graceful change management."
+  },
+  {
+    "id": "S02",
+    "title": "OpenAlex Python Toolkit for Librarians",
+    "time": "9:00am - 12:15pm",
+    "authors": [
+      { "name": "Katharine Teykl", "affiliation": "University of Wyoming Libraries" },
+      { "name": "Chad Hutchens", "affiliation": "University of Wyoming Libraries" }
+    ],
+    "abstract": "This workshop will focus on using Python to retrieve institutionally affiliated bibliometric data (e.g. articles, datasets, books, etc.) from the OpenAlex API. Participants will be supplied with pre-written Python code that can be run from Google Colab to generate reports and data visualizations of research outputs from their organization."
+  },
+  {
+    "id": "S03",
+    "title": "Evolving Roles and Tools: Navigating the Future of Project Management in Digital Libraries",
+    "time": "9:00am - 12:15pm",
+    "authors": [
+      { "name": "Cari Lovins", "affiliation": "Emory University Libraries and Museum" }
+    ],
+    "abstract": "As digital library work grows in complexity, so must our approaches to managing it. This workshop will explore the evolving landscape of project management in the digital library space, including incorporating AI tools, adapting to economic constraints, and transitioning from traditional project management to broader program and service management roles."
+  },
+  {
+    "id": "S06",
+    "title": "AVAnnotate: Open Source Application for Audiovisual Digital Exhibits and Editions",
+    "time": "1:45pm - 5:00pm",
+    "authors": [
+      { "name": "Jack Devry Riordan", "affiliation": "AVAnnotate" },
+      { "name": "Ben Brumfield", "affiliation": "AVAnnotate" }    ],
+    "abstract": "This 3-hour workshop introduces AVAnnotate, an open-source tool for creating annotated audiovisual exhibits. Participants will learn to use IIIF manifests, annotate AV content, and publish exhibits via GitHub Pages, enhancing the discoverability of AV archives. Hands-on training and discussion target librarians and researchers. No prior experience is required."
+  },
+  {
+    "id": "S07",
+    "title": "Hands-On Digital Publishing Workshop with Quire",
+    "time": "1:45pm - 5:00pm",
+    "authors": [
+      { "name": "Erin Cecele Dunigan", "affiliation": "Getty Publications" },
+      { "name": "Greg Albers", "affiliation": "Getty Publications" }
+    ],
+    "abstract": "This workshop is an introduction to Quire, an open-source publishing tool developed by Getty. With Quire, you can create multimedia-rich publications for the web (along with PDFs, e-books, and print books). The workshop breaks down the tools and processes necessary for using Quire into approachable, easy-to-understand concepts and hands-on exercises."
+  },
+  {
+    "id": "S08",
+    "title": "Practicing Systems Leadership for Knowledge Equity: Building Coalitions, Navigating Governance, and Embracing Collective Power",
+    "time": "1:45pm - 5:00pm",
+    "authors": [
+      { "name": "Jackson Huang", "affiliation": "Educopia" },
+      { "name": "Aloma Antao", "affiliation": "Educopia" }
+    ],
+    "abstract": "This interactive workshop explores systems leadership in the cultural heritage sector, focusing on systemic insight, coalition building, and collaborative governance. Participants will map their communities, examine decision-making practices, and reflect on power and sustainability in collective work. Tools and activities will support applying these concepts in participants’ own contexts."
+  }
+]

@@ -28,8 +28,8 @@
     "url": "https://github.com/clirdlf/forum2025.diglib.org/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-img": "^6.0.2",
+    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy-img": "^6.0.4",
     "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.7",

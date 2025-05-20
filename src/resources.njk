@@ -18,20 +18,20 @@ eleventyNavigation:
     <div class="grid grid-cols-1 items-start mt-15 gap-y-16 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
       {%- for resource in collections.resources %}
         {% if resource.data.draft == false %}
-        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
-          <div class="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-8 h-56">
-            <img eleventy:widths="200,600" src="{{ resource.data.cover }}" alt="{{ resource.data.title }}" class="h-full w-full object-cover"></div>
-          <div class="p-0">
-            
-            <a href="{{ resource.url }}" class="grid grid-cols-6 items-baseline gap-2 text-blue-gray-900 transition-colors hover:text-blue-700">
-              <div class="col-span-5">
-                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-inherit normal-case">{{ resource.data.title }}</h4>
-              </div>
-            </a>
-            <p class="block antialiased font-sans text-base leading-relaxed text-gray-700 mb-6 font-normal">As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others.</p>
-            
+          <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+            <div class="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-8 h-56">
+              <img eleventy:widths="200,600" src="{{ resource.data.cover }}" alt="{{ resource.data.title }}" class="h-full w-full object-cover"></div>
+            <div class="p-0">
+
+              <a href="{{ resource.url }}" class="grid grid-cols-6 items-baseline gap-2 text-blue-gray-900 transition-colors hover:text-blue-700">
+                <div class="col-span-5">
+                  <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-inherit normal-case">{{ resource.data.title }}</h4>
+                </div>
+              </a>
+              <p class="block antialiased font-sans text-base leading-relaxed text-gray-700 mb-6 font-normal">As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others.</p>
+
+            </div>
           </div>
-        </div>
         {% endif %}
       {%- endfor %}
     </div>

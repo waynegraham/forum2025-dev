@@ -33,10 +33,10 @@ eleventyNavigation:
         Call <a href="tel:3035729100" class="text-blue-700 font-medium underline">(303) 572-9100</a> or <a target="_blank" href="https://book.passkey.com/event/50987045/owner/3485/home" class="text-blue-700 font-medium underline">book online</a>.
     </p>
     <h3 class="text-xl pt-4 mb-4">Cancelation Policy</h3>
-    <p class="mb-4 text-sm text-gray-600">
+    <p class="mb-4">
         Cancel up to 72 hours prior to check-in with no penalty.
     </p>
-    <p class="text-sm text-gray-600">
+    <p class="mb-4">
         Accessibility needs such as feather- or fragrance-free rooms should be communicated directly with the hotel during booking.
     </p>
 </section>
@@ -72,7 +72,6 @@ eleventyNavigation:
         <h2 class="text-2xl font-semibold mb-4">Hotel Location</h2>
         <div id="map" class="w-full h-[500px] rounded-lg shadow-md"></div>
     </div>
-
 </section>
 
 <!-- Accordion for Resources -->
@@ -104,65 +103,6 @@ eleventyNavigation:
     </div>
 </section>
 
-
-{# 
-<h2>Conference Venue &amp; Hotel</h2>
-
-<p>The forum will be held at The Westin Denver Downtown</p>
-
-<p>
-    <a class="underline" target="_blank" href="https://www.marriott.com/en-us/hotels/denwi-the-westin-denver-downtown/overview/">The Westin Denver Downtown</a><br>
-    672 Lawrence St<br>
-    Denver, CO 80202<br>
-    <a href="tel:303-572-9100">+1 303-572-9100</a>
-</p>
-
-<p>
-    The Westin Denver Downtown is centrally located on the 16th Street Mall and near many of Denver's popular attractions, including the Convention Center, Coors Field, Ball Arena, and the Denver Center for Performing Arts Complex. Newly renovated rooms, suites, and amenities in were added in 2023.
-</p>
-
-<img eleventy:widths="200,600" src="/static/wi-denwi-exterior-16th-st-mal31566-17421_Wide-Hor.jpeg" alt="Westin Denver Downtown" class="w-full rounded-lg shadow-lg">
-
-<p>
-    View floor plans of the hotel’s meeting spaces and more information about hotel accessibility on our Resources for Attendees page.
-</p>
-
-<ul>
-    <li>
-        <a target="_blank" href="https://www.marriott.com/en-us/hotels/denwi-the-westin-denver-downtown/events/">Hotel floor plans</a> (these are not very user-friendly)</li>
-    <li>
-        <a target="_blank" href="https://critiqueaccess.com/westin-denver-downtown/">Additional hotel accessibility info</a>
-    </li>
-</ul>
-
-<div id="map" style="height:400px;width:100%;"></div>
-
-<h2>Reservations</h2>
-
-<p>
-    Hotel rooms are available on a first-come, first-served basis for <strong>$249 per night</strong> before taxes (currently 15.75%.) Reservations must be made on or before Friday, October 24, 2025 but may sell out prior to that date. We recommend booking as early as possible to ensure there is space.
-</p>
-
-<p>
-To make a reservation, attendees can call (303) 572-9100 or book online on the hotel's website.
-</p>
-
-<h2>CANCELATION POLICY</h2>
-<p>
-    Reservations may be canceled up to 72 hours prior to the scheduled check-in date. 
-</p>
-
-<p>
-    If you need a feather- or fragrance-free room, or any other accessibility accommodations, please communicate those directly to the hotel when booking.
-</p>
-
-<h2>Why Book at the Conference Hotel?</h2>
-
-<p>Booking your room within the block at our conference hotel will guarantee the lowest available room rates. Our events provide an opportunity to make connections with folks from a wide variety of professional backgrounds. An added bonus of staying at the conference hotel is the opportunity to continue informal conversations and networking with fellow attendees.
-Additionally, booking at the conference hotel helps CLIR/DLF meet our contractual commitments, which allows us to use more resources on the actual events. Booking outside of our room block impacts our ability to carry through this year’s and future events as intended.
-</p> #}
-{# <h2>Travel</h2> #}
-
 <script>
     const hotel = [39.749088, -104.99565]
     const map = L
@@ -176,11 +116,19 @@ Additionally, booking at the conference hotel helps CLIR/DLF meet our contractua
         .bindPopup('<b>Westin Denver Downtown</b><br>1672 Lawrence Street')
         .openPopup();
 
-    const tiles = L
+    {# https://leaflet-extras.github.io/leaflet-providers/preview/ #}
+    const tiles = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.{ext}', {
+        minZoom: 0,
+        maxZoom: 20,
+        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        ext: 'png'
+    }).addTo(map);
+
+    {# const tiles = L
         .tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
             maxZoom: 20
-        })
-        .addTo(map);
+        }) 
+        .addTo(map);#}
 </script>

@@ -1,25 +1,14 @@
 [
-    {
-        "name": "Sponsor 2",
-        "logo": "https://placehold.co/800x400",
-        "url": "https://sponsor2.com",
-        "level": "platinum",
-        "description": "Sponsor 2 is a great company that does great things."
-    },
-    {
-        "name": "Sponsor 1",
-        "logo": "https://placehold.co/800x400",
-        "url": "https://sponsor1.com",
-        "level": "gold",
-        "description": "Sponsor 1 is a great company that does great things."
-    },
-    {
-        "name": "Sponsor 3",
-        "logo": "https://placehold.co/800x400",
-        "url": "https://sponsor3.com",
-        "level": "gold",
-        "description": "Sponsor 3 is a great company that does great things."
-    }
+  {
+    "name": "AM Quartex",
+    "url": "https://www.amdigital.co.uk/",
+    "logo": "/static/sponsors/am-quartex.svg",
+    "level": "Platinum"
+  },
+  {
+    "name": "ITHAKA",
+    "url": "https://www.ithaka.org/",
+    "logo": "/static/sponsors/ithaka.svg",
+    "level": "Silver"
+  }
 ]
-
-

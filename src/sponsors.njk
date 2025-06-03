@@ -2,7 +2,9 @@
 title: Sponsors
 layout: page.njk
 cover: "/static/CLIRT-11.webp"
-draft: true
+preload:
+  - /static/CLIRT-11.webp
+draft: false
 eleventyNavigation:
   key: Sponsors
   order: 6
@@ -23,6 +25,37 @@ eleventyNavigation:
     </p>
   </div>
 </section>
+
+<section class="px-6 py-12 max-w-6xl mx-auto">
+  <h1 class="text-4xl font-bold mb-6 text-center">Thank You to Our Sponsors</h1>
+  <p class="text-center text-lg mb-12">
+    We are deeply grateful to our sponsors for their generous support of the DLF Forum.
+  </p>
+
+  {% for group in sponsorsByLevel %}
+    <div class="mb-12">
+      <h2 class="text-2xl font-semibold mb-6 text-gray-800">{{ group.level }} Sponsors</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+        {% if group.sponsors.length %}
+          {% for sponsor in group.sponsors %}
+            <a href="{{ sponsor.url }}" target="_blank" aria-label="Read more about {{ sponsor.name }}" rel="noopener noreferrer" class="flex justify-center">
+              {% if sponsor.isSvg %}
+                <div class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto [&>svg]:w-full [&>svg]:h-auto [&>svg]:object-contain">
+                  {{ sponsor.svg | safe }}
+                </div>
+              {% else %}
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="{% if group.level == 'Platinum' %}w-72{% else %}w-52{% endif %} h-auto object-contain"/>
+              {% endif %}
+            </a>
+          {% endfor %}
+        {% else %}
+          <p class="text-center text-gray-700 col-span-full">No {{ group.level }} sponsors at this time.</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
 {# <!-- 
 <section class="py-8 px-8 lg:py-20">
   <div class="container mx-auto text-center">

@@ -53,6 +53,24 @@ module.exports = async function(eleventyConfig) {
 		emoji: "📖",
 	});
 
+  // Collections
+  eleventyConfig.addCollection("sponsorsByLevel", function (collectionApi) {
+    const sponsors = Array.isArray(collectionApi.globalData?.sponsors)
+      ? collectionApi.globalData.sponsors
+      : [];
+
+    const levels = ["Platinum", "Gold", "Silver", "Bronze"];
+
+    const result = levels.map((level) => ({
+      level,
+      sponsors: sponsors.filter((s) => s.level === level)
+    }));
+
+    console.log("Sponsors by level:", result); // helpful debug
+    return result;
+  });
+  
+
   // Filters
   eleventyConfig.addFilter("usd", function(value) {
     if (typeof value !== 'number') {

@@ -4,3 +4,4 @@ _site/
 .jekyll-cache
 .venv
 scratch.html
+.DS_Store

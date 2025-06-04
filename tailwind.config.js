@@ -8,7 +8,8 @@ module.exports = withMT({
   theme: {
     extend: {
       colors: {
-        'bronze': '##ca8a04'
+        // Custom color used for Bronze sponsors
+        'bronze': '#ca8a04'
       }
     },
   },

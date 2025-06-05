@@ -82,6 +82,12 @@ module.exports = async function(eleventyConfig) {
     }).format(value);
   });
 
+  eleventyConfig.addFilter("date", function (value, format = "%Y") {
+    return new Date().toLocaleDateString("en-US", {
+      year: "numeric"
+    });
+  });
+
   // @see https://www.11ty.dev/docs/quicktips/inline-css/
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;

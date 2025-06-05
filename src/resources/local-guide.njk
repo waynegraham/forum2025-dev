@@ -8,65 +8,83 @@ eleventyNavigation:
   parent: Resources
 ---
 
-
-
-  <!-- Main Content -->
-  <main class="max-w-7xl mx-auto p-6 space-y-16">
-    
-    <!-- Google Map Embed -->
-    <section id="map">
-      <h2 class="text-2xl font-semibold mb-4">Interactive Map</h2>
-      <div class="aspect-w-16 aspect-h-9">
-        <iframe
+<main class="max-w-7xl mx-auto p-6 space-y-16">
+  {# Google Map Embed #}
+  <section id="map">
+    <h2 class="text-2xl font-semibold mb-4">Interactive Map</h2>
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe
           src="https://www.google.com/maps/d/u/1/embed?mid=1Tk2D8GD3BpITnCo_rtwpXdbL7KsBpok&ehbc=2E312F"
+          title="DLF Local Guide 2025"
           width="100%"
           height="480"
           class="w-full border rounded-xl"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </section>
+          allowfullscreen></iframe>
+    </div>
+  </section>
 
-    {# search #}
-    <section id="search" class="bg-gray-100 p-4 rounded">
-      <h2 class="text-2xl font-semibold mb-4">Search the Guide</h2>
-      <input
+  {# search #}
+  <section id="search" class="bg-gray-100 p-4 rounded">
+    <h2 class="text-2xl font-semibold mb-4">Search the Guide</h2>
+    <input
         id="searchBox"
         type="text"
         placeholder="Search by name, type, or accessibility..."
         class="w-full p-3 border rounded shadow"
-        oninput="searchGuide()" />
-    </section>
+        oninput="searchGuide()"/>
+  </section>
 
-    <header class="sticky top-0 bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 z-50 p-4">
-      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-        {# block w-full max-w-screen-lg px-4 py-2 mx-auto bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 #}
-        {# <h1 class="text-2xl font-bold">{{ title or "Denver Local Guide" }}</h1> #}
-        <nav class="space-x-4 text-blue-600 mt-2 md:mt-0">
-          <a href="#restaurants">Eat</a>
-          <a href="#coffee">Coffee</a>
-          <a href="#breweries">Drink</a>
-          <a href="#culture">Culture</a>
-          <a href="#entertainment">Entertainment</a>
-        </nav>
-      </div>
-    </header>
+ <header class="sticky top-0 bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 z-50 p-4">
+  <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-2">
+    <h1 class="text-3xl font-extrabold">{{ title or "Denver Local Guide" }}</h1>
+    <nav class="space-x-4 text-blue-700">
+      <a href="#restaurants">Eat</a>
+      <a href="#coffee">Coffee</a>
+      <a href="#breweries">Drink</a>
+      <a href="#culture">Culture</a>
+      <a href="#entertainment">Entertainment</a>
+    </nav>
+  </div>
+</header>
 
-    {% include "restaurants_template.njk" %}
-    {% include "coffee_shops_template.njk" %}
-    {% include "breweries_bars_template.njk" %}
-    {% include "cultural_attractions_template.njk" %}
-    {% include "entertainment_venues_template.njk" %}
-  </main>
+<section class="max-w-7xl mx-auto p-6 mt-4">
+  <h2 class="text-xl font-semibold mb-2">Community Business Resources</h2>
+  <ul class="list-disc list-inside text-blue-700">
+    <li><a class="underline" href="https://303magazine.com/2021/06/lgbtq-owned-businesses-denver/" target="_blank">LGBTQ+ Businesses in & Around Denver (June 2021)</a></li>
+    <li><a class="underline"  href="https://www.opentable.com/lists/lgbtq-owned-and-operated-restaurants-denver" target="_blank">LGBTQ-Owned and -Operated Restaurants in Denver</a></li>
+    <li><a class="underline"  href="https://denverblackpages.com/little-black-book/" target="_blank">Little Black Book (Guide to Black-Owned Businesses in Denver)</a></li>
+    <li><a class="underline" href="https://www.google.com/maps/d/u/0/viewer?mid=1K_u5z2GWOpMw7_qOTR9Fg9eR7_7HxUo&ll=39.52986445990702%2C-104.99293619999999&z=9" target="_blank">Latino Owned Businesses in Denver</a></li>
+  </ul>
+</section>
 
-  <!-- Simple global search script -->
-  <script>
-    function searchGuide() {
-      const input = document.getElementById('searchBox').value.toLowerCase();
-      const cards = document.querySelectorAll('.card');
+  {% include "restaurants_template.njk" %}
+  {% include "coffee_shops_template.njk" %}
+  {% include "breweries_bars_template.njk" %}
+  {% include "cultural_attractions_template.njk" %}
+  {% include "entertainment_venues_template.njk" %}
+</main>
+
+{# Simple global search script #}
+<script>
+  function searchGuide() {
+    const input = document.getElementById('searchBox').value.toLowerCase();
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+      const cards = section.querySelectorAll('.card');
+      let visibleCount = 0;
+
       cards.forEach(card => {
         const text = card.innerText.toLowerCase();
-        card.style.display = text.includes(input) ? 'block' : 'none';
+        const match = text.includes(input);
+        card.style.display = match ? 'block' : 'none';
+        if (match) visibleCount++;
       });
-    }
-  </script>
+
+      // If no cards are visible, hide the section (except search and map)
+      if (section.id !== 'search' && section.id !== 'map') {
+        section.style.display = visibleCount > 0 ? 'block' : 'none';
+      }
+    });
+  }
+</script>

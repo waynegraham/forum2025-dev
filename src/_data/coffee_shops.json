@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Vibe Coffee and Bar",
+    "address": "1490 Curtis Street, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Modern-style coffee shop and cocktail bar with comfortable seating",
+    "url": "https://vibecoffeeandwine.com/denver/"
+  },
+  {
+    "name": "Little Owl Coffee",
+    "address": "1555 Blake Street, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Coffee shop with notable architecture and coffee bean sales",
+    "url": "https://www.littleowlcoffee.com/"
+  },
+  {
+    "name": "Trompeau Bakery",
+    "address": "934 16th St Mall, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "French-style bakery with pastries and coffee",
+    "url": "https://trompeau-bakery.com/"
+  },
+  {
+    "name": "Queen City Collective Coffee (Larimer location)",
+    "address": "1675 Larimer Street, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": [],
+    "notes": "Community-focused collective with beverage selection",
+    "url": "https://queencitycollectivecoffee.com/"
+  },
+  {
+    "name": "Huckleberry Roasters",
+    "address": "406 Larimer Street, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Coffee shop with avocado toast and good beverage selection",
+    "url": "https://www.huckleberryroasters.com/locations/larimer-square"
+  },
+  {
+    "name": "Blue Sparrow Coffee (Five Points)",
+    "address": "Five Points, Denver",
+    "distance": "1–2 mi",
+    "accessibility": ["wheelchair", "ada"],
+    "notes": "Rooftop seating, diverse beverages",
+    "url": "https://www.bluesparrowcoffee.com/"
+  },
+  {
+    "name": "2914 Coffee",
+    "address": "2914 W 25th Ave, Denver, CO 80211",
+    "distance": "1–2 mi",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "notes": "Small cafe with lattes, pastries, wi-fi",
+    "url": "https://www.2914coffee.com/"
+  },
+  {
+    "name": "Middle State Coffee (Highlands)",
+    "address": "2622 W 32nd Ave, Denver, CO 80211",
+    "distance": "1–2 mi",
+    "accessibility": [],
+    "notes": "Peaceful decor, coffee and breakfast",
+    "url": "https://www.middlestatecoffee.com/"
+  },
+  {
+    "name": "Crema Coffee House",
+    "address": "2862 Larimer St, Denver, CO 80205",
+    "distance": "1–2 mi",
+    "accessibility": ["gender-neutral"],
+    "notes": "Laid-back decor, fresh food, beans available",
+    "url": "https://www.cremacoffeehouse.com/"
+  },
+  {
+    "name": "Method Coffee Roasters (Lo-Hi)",
+    "address": "2011 W 32nd Ave, Denver, CO 80211",
+    "distance": "1–2 mi",
+    "accessibility": [],
+    "notes": "Small-lot coffee blends, study and meeting space",
+    "url": "https://www.methodcoffeeroasters.com/"
+  }
+]

@@ -1,0 +1,24 @@
+<section id="breweries">
+  <h2 class="text-2xl font-semibold mb-4">Breweries &amp; Bars</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {% for place in breweries_bars %}
+    <div class="card bg-white p-4 rounded-xl shadow">
+      <h3 class="text-xl font-bold">
+        <a href="{{ place.url }}" target="_blank" class="text-blue-700 hover:underline">
+          {{ place.name }}
+        </a>
+      </h3>
+      <p class="text-sm text-gray-600">{{ place.address }} | {{ place.distance }} from hotel</p>
+      <p>{{ place.notes }}</p>
+      <p>
+        Accessibility:
+        {% if place.accessibility.length > 0 %}
+          {{ place.accessibility | join('; ') }}
+        {% else %}
+          Not listed
+        {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

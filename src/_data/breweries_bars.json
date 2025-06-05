@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Wynkoop Brewing Company",
+    "url": "https://www.wynkoop.com",
+    "address": "1634 18th St, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair", "ada"],
+    "notes": "Historic brewpub with rotating taps. Founded in 1988."
+  },
+  {
+    "name": "Nallen’s Irish Pub",
+    "url": "https://nallenspubdenver.com/",
+    "address": "1429 Market St, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Traditional Irish pub since 1992. Known for Guinness."
+  },
+  {
+    "name": "Union Lodge No. 1",
+    "url": "https://www.unionlodge1.com/",
+    "address": "1543 Champa St. Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Cocktails with a Prohibition-era theme."
+  },
+  {
+    "name": "54thirty",
+    "url": "https://www.54thirty.com",
+    "address": "1475 California St, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "notes": "Rooftop bar with mocktails and stunning views."
+  },
+  {
+    "name": "Seven Grand Denver",
+    "url": "https://www.sevengrandbars.com/denver",
+    "address": "1855 Blake St Suite 160, Denver, CO 80202",
+    "distance": "<1 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Whiskey bar with cocktails and non-alcoholic options."
+  },
+  {
+    "name": "The Pearl",
+    "url": "https://thepearldenver.com/",
+    "address": "2199 California St, Denver, CO 80205",
+    "distance": "0.8 mi",
+    "accessibility": [],
+    "notes": "Sapphic-focused bar and cafe with event space."
+  },
+  {
+    "name": "Denver Beer Co",
+    "url": "https://denverbeerco.com",
+    "address": "1695 Platte St, Denver, CO 80202",
+    "distance": "1–3 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Brewery in a former garage with pet-friendly patio and NA options."
+  },
+  {
+    "name": "Ratio Beer Works (Larimer St Location)",
+    "url": "https://ratiobeerworks.com",
+    "address": "2920 Larimer St. Denver, CO 80205",
+    "distance": "1–3 mi",
+    "accessibility": ["wheelchair"],
+    "notes": "Colorful exterior, custom beers, and hop water."
+  },
+  {
+    "name": "Odell Brewing Company—Five Points Brewhouse",
+    "url": "https://www.odellbrewing.com/locations/fivepoints/",
+    "address": "2945 Larimer St, Denver, CO 80205",
+    "distance": "1–3 mi",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "notes": "Fire-pits, patio, and craft beer selection."
+  }
+]

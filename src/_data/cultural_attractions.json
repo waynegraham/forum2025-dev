@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Meow Wolf",
+    "address": "1338 1st St, Denver, CO 80204",
+    "distance": "30 min walk, 6 min drive",
+    "cost": "$40-$50",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "notes": "Immersive art playground with four worlds of exploration",
+    "url": "https://meowwolf.com/denver"
+  },
+  {
+    "name": "Denver Botanic Gardens (York Street)",
+    "address": "1007 York Street Denver, CO 80206",
+    "distance": "11 min drive",
+    "cost": "$16",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "notes": "Top-ranked gardens with events, children's garden, and coffee shop",
+    "url": "https://www.botanicgardens.org/york-street/"
+  },
+  {
+    "name": "Museum of Nature and Science",
+    "address": "2001 Colorado Blvd. Denver, CO 80205",
+    "distance": "9 min drive",
+    "cost": "$25.95",
+    "accessibility": ["wheelchair", "ada"],
+    "notes": "Cosmos, gems, planetarium, and dinosaurs",
+    "url": "https://www.dmns.org/"
+  },
+  {
+    "name": "Denver Art Museum",
+    "address": "100 W 14th Ave. Pkwy. Denver, Colorado",
+    "distance": "25 min walk, 6 min drive",
+    "cost": "$27 (non-resident), $22 (resident)",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "notes": "One of the largest art museums between Chicago and the West Coast",
+    "url": "https://denverartmuseum.org/"
+  },
+  {
+    "name": "Clyfford Still Museum",
+    "address": "1250 Bannock St, Denver, CO 80204",
+    "distance": "28 min walk, 6 min drive",
+    "cost": "$18 (non-resident), $15 (resident)",
+    "accessibility": ["wheelchair"],
+    "notes": "Abstract works in large formats with an interpretive approach",
+    "url": "https://clyffordstillmuseum.org/"
+  },
+  {
+    "name": "Denver Mint",
+    "address": "320 West Colfax Avenue Denver, CO 80204-2693",
+    "distance": "23 min walk, 5 min drive",
+    "cost": "Free (guided tours only)",
+    "accessibility": [],
+    "notes": "History of the U.S. Mint and coin production",
+    "url": "https://www.usmint.gov/about/tours-and-locations/denver"
+  },
+  {
+    "name": "Museum of Illusions",
+    "address": "951 16th Street Mall, Denver, CO",
+    "distance": "6 min walk",
+    "cost": "$24 regular, $34 flex",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "notes": "Interactive illusion-based museum",
+    "url": "https://moidenver.com/"
+  },
+  {
+    "name": "Denver Union Station",
+    "address": "1701 Wynkoop, Denver Colorado 80202",
+    "distance": "10 min walk",
+    "cost": "Free",
+    "accessibility": ["wheelchair", "ada"],
+    "notes": "Historic landmark and hub for shopping, dining, and transit",
+    "url": "https://unionstationindenver.com/"
+  },
+  {
+    "name": "History Colorado Center",
+    "address": "1200 Broadway St, Denver, CO 80203",
+    "distance": "29 min walk, 6 min drive",
+    "cost": "$15",
+    "accessibility": ["wheelchair"],
+    "notes": "Interactive exhibits about Colorado's heritage",
+    "url": "https://www.historycolorado.org/history-colorado-center"
+  },
+  {
+    "name": "Civic Center Park & Golden Triangle Creative District",
+    "address": "PO Box 40127, Denver, CO 80204",
+    "distance": "23 min walk",
+    "cost": "Free",
+    "accessibility": ["wheelchair"],
+    "notes": "Public art, gardens, and gallery access in downtown",
+    "url": "https://www.goldentriangleofdenver.com/"
+  }
+]

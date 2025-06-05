@@ -2,8 +2,71 @@
 title: Local Guide
 layout: page.njk
 cover: /static/andrew-preble-zrhXd14ICRo-unsplash.webp
-draft: true
+draft: false
 eleventyNavigation:
   key: Local Guide
   parent: Resources
 ---
+
+
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto p-6 space-y-16">
+    
+    <!-- Google Map Embed -->
+    <section id="map">
+      <h2 class="text-2xl font-semibold mb-4">Interactive Map</h2>
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe
+          src="https://www.google.com/maps/d/u/1/embed?mid=1Tk2D8GD3BpITnCo_rtwpXdbL7KsBpok&ehbc=2E312F"
+          width="100%"
+          height="480"
+          class="w-full border rounded-xl"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    {# search #}
+    <section id="search" class="bg-gray-100 p-4 rounded">
+      <h2 class="text-2xl font-semibold mb-4">Search the Guide</h2>
+      <input
+        id="searchBox"
+        type="text"
+        placeholder="Search by name, type, or accessibility..."
+        class="w-full p-3 border rounded shadow"
+        oninput="searchGuide()" />
+    </section>
+
+    <header class="sticky top-0 bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 z-50 p-4">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+        {# block w-full max-w-screen-lg px-4 py-2 mx-auto bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 #}
+        {# <h1 class="text-2xl font-bold">{{ title or "Denver Local Guide" }}</h1> #}
+        <nav class="space-x-4 text-blue-600 mt-2 md:mt-0">
+          <a href="#restaurants">Eat</a>
+          <a href="#coffee">Coffee</a>
+          <a href="#breweries">Drink</a>
+          <a href="#culture">Culture</a>
+          <a href="#entertainment">Entertainment</a>
+        </nav>
+      </div>
+    </header>
+
+    {% include "restaurants_template.njk" %}
+    {% include "coffee_shops_template.njk" %}
+    {% include "breweries_bars_template.njk" %}
+    {% include "cultural_attractions_template.njk" %}
+    {% include "entertainment_venues_template.njk" %}
+  </main>
+
+  <!-- Simple global search script -->
+  <script>
+    function searchGuide() {
+      const input = document.getElementById('searchBox').value.toLowerCase();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        card.style.display = text.includes(input) ? 'block' : 'none';
+      });
+    }
+  </script>

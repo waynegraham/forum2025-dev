@@ -1,0 +1,29 @@
+<section id="restaurants">
+  <h2 class="text-2xl font-semibold mb-4">Where to Eat</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {% for restaurant in restaurants %}
+    <div class="card bg-white p-4 rounded-xl shadow">
+      <h3 class="text-xl font-bold">
+        {% if restaurant.url %}
+          <a href="{{ restaurant.url }}" target="_blank" class="text-blue-700 hover:underline">
+            {{ restaurant.name }}
+          </a>
+        {% else %}
+          {{ restaurant.name }}
+        {% endif %}
+      </h3>
+      <p class="text-sm text-gray-600">{{ restaurant.address }} | {{ restaurant.distance }}</p>
+      <p>{{ restaurant.type }}</p>
+      <p>{{ restaurant.notes }}</p>
+      <p>
+        Accessibility:
+        {% if restaurant.accessibility.length > 0 %}
+          {{ restaurant.accessibility | join('; ') }}
+        {% else %}
+          Not listed
+        {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

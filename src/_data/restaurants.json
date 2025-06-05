@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Sam's No. 3",
+    "address": "1500 Curtis St., Denver, CO 80202",
+    "distance": "0.4 mi",
+    "type": "breakfast, brunch, American",
+    "accessibility": ["wheelchair", "ada"],
+    "url": "https://www.samsno3.com/"
+  },
+  {
+    "name": "West Saloon & Kitchen",
+    "address": "501 16th St Mall Denver, CO 80202",
+    "distance": "0.5 mi",
+    "type": "American",
+    "accessibility": ["wheelchair"],
+    "url": "https://westofsurrender.com/"
+  },
+  {
+    "name": "Rioja",
+    "address": "1431 Larimer St Denver, CO 80202",
+    "distance": "0.5 mi",
+    "type": "Mediterranean",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "url": "https://www.riojadenver.com/"
+  },
+  {
+    "name": "Tavernetta",
+    "address": "1889 16th St Denver, CO 80202",
+    "distance": "0.5 mi on foot, 2 mi by car",
+    "type": "Italian",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "url": "https://www.tavernettadenver.com/"
+  },
+  {
+    "name": "Cherry Cricket - Ballpark Location",
+    "address": "2220 Blake St, Denver, CO 80205",
+    "distance": "0.7 mi on foot, 1 mi by car",
+    "type": "Burgers",
+    "accessibility": ["wheelchair"],
+    "url": "https://www.cherrycricket.com/"
+  },
+  {
+    "name": "La Loma",
+    "address": "1801 Broadway St, Denver, CO 80202",
+    "distance": "0.8 mi",
+    "type": "Mexican",
+    "accessibility": ["wheelchair", "ada"],
+    "url": "https://lalomamexican.com/"
+  },
+  {
+    "name": "D'Corazon",
+    "address": "1530 Blake St unit c, Denver, CO 80202",
+    "distance": "0.8 mi",
+    "type": "Mexican",
+    "accessibility": ["no-steps"],
+    "url": "https://dcorazonrestaurant.com/"
+  },
+  {
+    "name": "Work & Class",
+    "address": "2500 Larimer St. Ste 101, Denver, CO 80205",
+    "distance": "1 mi",
+    "type": "New American, Latin American",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "url": "https://workandclassdenver.com/"
+  },
+  {
+    "name": "Uchi",
+    "address": "2500 Lawrence St, Denver, CO 80205",
+    "distance": "1 mi",
+    "type": "Sushi",
+    "accessibility": ["wheelchair"],
+    "url": "https://uchi.uchirestaurants.com/location/sushi-denver/"
+  },
+  {
+    "name": "Watercourse Foods",
+    "address": "837 E 17th Ave, Denver, CO 80218",
+    "distance": "1.2 mi",
+    "type": "Vegan",
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "url": "https://watercoursefoods.com/"
+  },
+  {
+    "name": "City O' City",
+    "address": "206 E 13th Ave Denver, CO 80203",
+    "distance": "1.3 mi",
+    "type": "Vegan",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "url": "https://www.cityocitydenver.com/"
+  },
+  {
+    "name": "Bang up to the Elephant",
+    "address": "1310 Pearl St, Denver, CO 80203",
+    "distance": "1.4 mi",
+    "type": "Vegan",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "url": "https://banguptotheelephant.restaurant/"
+  },
+  {
+    "name": "Welton Street Cafe",
+    "address": "2883 Welton Street, Denver, Colorado 80205",
+    "distance": "1.5 mi",
+    "type": "Southern, Soul Food, Caribbean",
+    "accessibility": ["wheelchair", "ada"],
+    "url": "https://weltonstreetcafe.com/"
+  },
+  {
+    "name": "The Bindery",
+    "address": "1817 Central St., Denver, Colorado 80211",
+    "distance": "1.6 mi",
+    "type": "New American",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "url": "https://www.thebinderydenver.com/"
+  },
+  {
+    "name": "Nana's Dim Sum & Dumplings",
+    "address": "3316 Tejon St #102, Denver, CO 80211",
+    "distance": "1.8 mi",
+    "type": "Dim Sum",
+    "accessibility": ["wheelchair"],
+    "url": "https://www.nanadimsum.com/"
+  },
+  {
+    "name": "Kawa Ni",
+    "address": "1900 W 32nd Avenue, Denver, CO 80211",
+    "distance": "1.8 mi",
+    "type": "Japanese pub",
+    "accessibility": ["wheelchair"],
+    "url": "https://www.kawanidenver.com/"
+  },
+  {
+    "name": "Brasserie Brixton",
+    "address": "3701 North Williams Street, Denver, Colorado",
+    "distance": "2.6 mi",
+    "type": "French",
+    "accessibility": [],
+    "url": "https://www.brasseriebrixton.com/"
+  },
+  {
+    "name": "Angelo's Taverna",
+    "address": "620 E 6th Ave Denver, CO 80203",
+    "distance": "2.7 mi",
+    "type": "Italian, Seafood",
+    "accessibility": ["wheelchair"],
+    "url": "https://angelostaverna.com/"
+  },
+  {
+    "name": "Culinary Dropout",
+    "address": "4141 E 9th Ave Denver, CO 80220",
+    "distance": "4 mi",
+    "type": "New American",
+    "accessibility": ["wheelchair"],
+    "url": "https://culinarydropout.com/locations/denver/"
+  },
+  {
+    "name": "Le French",
+    "address": "846 Albion St, Denver, CO 80220",
+    "distance": "4.1 mi",
+    "type": "French-Senegalese",
+    "accessibility": ["wheelchair"],
+    "url": "https://www.lefrenchdenver.com/location/le-french-9-co/"
+  },
+  {
+    "name": "Abyssinia Ethiopian Restaurant and Bar",
+    "address": "5707 E Colfax Ave, Denver, CO 80220",
+    "distance": "4.9 mi",
+    "type": "Ethiopian",
+    "accessibility": ["wheelchair"],
+    "url": "http://abyssiniaethiopianrestaurant.mobile-webview1.com/"
+  }
+]

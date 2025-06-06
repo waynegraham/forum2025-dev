@@ -82,12 +82,6 @@ module.exports = async function(eleventyConfig) {
     }).format(value);
   });
 
-  eleventyConfig.addFilter("date", function (value, format = "%Y") {
-    return new Date().toLocaleDateString("en-US", {
-      year: "numeric"
-    });
-  });
-
   // @see https://www.11ty.dev/docs/quicktips/inline-css/
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
@@ -129,6 +123,21 @@ module.exports = async function(eleventyConfig) {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
 	});
+
+  eleventyConfig.addFilter("date", (value, format = "yyyy-MM-dd") => {
+    if (!value) return "";
+    return DateTime.fromISO(value).toFormat(format);
+  });
+
+  eleventyConfig.addFilter("groupbyIterable", function(arr, key) {
+    const grouped = arr.reduce((acc, item) => {
+      const groupKey = item[key];
+      if (!acc[groupKey]) acc[groupKey] = [];
+      acc[groupKey].push(item);
+      return acc;
+    }, {});
+    return Object.entries(grouped).map(([k, v]) => ({ grouper: k, items: v }));
+  });
 
   // Plugins
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {

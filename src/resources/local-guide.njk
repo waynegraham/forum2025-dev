@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Resources
 ---
 
-<main class="max-w-7xl mx-auto p-6 space-y-16">
+<div id="local-guide-page" class="max-w-7xl mx-auto p-6 space-y-16">
   {# Google Map Embed #}
   <section id="map">
     <h2 class="text-2xl font-semibold mb-4">Interactive Map</h2>
@@ -34,7 +34,7 @@ eleventyNavigation:
         oninput="searchGuide()"/>
   </section>
 
- <header class="sticky top-0 bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 z-50 p-4">
+ <header class="sticky top-0 bg-sky-50 bg-white shadow-md rounded-md lg:px-8 lg:py-3 mt-10 z-50 p-4">
   <div class="max-w-7xl mx-auto flex flex-col items-center text-center space-y-2">
     <h1 class="text-3xl font-extrabold">{{ title or "Denver Local Guide" }}</h1>
     <nav class="space-x-4 text-blue-700">
@@ -62,7 +62,7 @@ eleventyNavigation:
   {% include "breweries_bars_template.njk" %}
   {% include "cultural_attractions_template.njk" %}
   {% include "entertainment_venues_template.njk" %}
-</main>
+</div>
 
 {# Simple global search script #}
 <script>

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem; /* Adjust to your header height */
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* Adjust to your height */
+}
+
+.tab-content {
+  transition: opacity 300ms ease-in-out;
 }

@@ -3,6 +3,7 @@
     "id": "S01",
     "title": "Sunset Planning: Lessons and Tools for Responsible Stewardship of Collaborative Infrastructure",
     "time": "9:00am - 12:15pm",
+    "date": "2025-11-16",
     "authors": [
       { "name": "Snowden Becker", "affiliation": "LOCKSS Program, Stanford Libraries" },
       { "name": "Jackson Huang", "affiliation": "Educopia" },
@@ -16,6 +17,7 @@
     "id": "S02",
     "title": "OpenAlex Python Toolkit for Librarians",
     "time": "9:00am - 12:15pm",
+    "date": "2025-11-16",
     "authors": [
       { "name": "Katharine Teykl", "affiliation": "University of Wyoming Libraries" },
       { "name": "Chad Hutchens", "affiliation": "University of Wyoming Libraries" }
@@ -26,6 +28,7 @@
     "id": "S03",
     "title": "Evolving Roles and Tools: Navigating the Future of Project Management in Digital Libraries",
     "time": "9:00am - 12:15pm",
+    "date": "2025-11-16",
     "authors": [
       { "name": "Cari Lovins", "affiliation": "Emory University Libraries and Museum" }
     ],
@@ -35,6 +38,7 @@
     "id": "S06",
     "title": "AVAnnotate: Open Source Application for Audiovisual Digital Exhibits and Editions",
     "time": "1:45pm - 5:00pm",
+    "date": "2025-11-16",
     "authors": [
       { "name": "Jack Devry Riordan", "affiliation": "AVAnnotate" },
       { "name": "Ben Brumfield", "affiliation": "AVAnnotate" }    ],
@@ -44,6 +48,7 @@
     "id": "S07",
     "title": "Hands-On Digital Publishing Workshop with Quire",
     "time": "1:45pm - 5:00pm",
+    "date": "2025-11-16",
     "authors": [
       { "name": "Erin Cecele Dunigan", "affiliation": "Getty Publications" },
       { "name": "Greg Albers", "affiliation": "Getty Publications" }
@@ -52,6 +57,18 @@
   },
   {
     "id": "S08",
+    "date": "2025-11-16",
+    "title": "Practicing Systems Leadership for Knowledge Equity: Building Coalitions, Navigating Governance, and Embracing Collective Power",
+    "time": "1:45pm - 5:00pm",
+    "authors": [
+      { "name": "Jackson Huang", "affiliation": "Educopia" },
+      { "name": "Aloma Antao", "affiliation": "Educopia" }
+    ],
+    "abstract": "This interactive workshop explores systems leadership in the cultural heritage sector, focusing on systemic insight, coalition building, and collaborative governance. Participants will map their communities, examine decision-making practices, and reflect on power and sustainability in collective work. Tools and activities will support applying these concepts in participants’ own contexts."
+  },
+  {
+    "id": "S09",
+    "date": "2025-11-17",
     "title": "Practicing Systems Leadership for Knowledge Equity: Building Coalitions, Navigating Governance, and Embracing Collective Power",
     "time": "1:45pm - 5:00pm",
     "authors": [

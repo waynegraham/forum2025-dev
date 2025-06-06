@@ -1,6 +1,6 @@
 # forum2025.diglib.org 🌬️
 
-This repository contains the source for the DLF Forum 2025 website. The site is built with [Eleventy](https://www.11ty.dev/) and Tailwind CSS.
+This repository contains the source for the DLF Forum 2025 website. The site is built with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Local development
 
@@ -34,7 +34,7 @@ This repository contains the source for the DLF Forum 2025 website. The site is 
 
 ## Deployment workflow
 
-Deployment is handled automatically through GitHub Actions. Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs dependencies, builds the site, and publishes `_site` to GitHub Pages.
+Deployment is handled automatically through [GitHub Actions](https://github.com/features/actions). Pushing to the `main` or `dev` branch triggers `.github/workflows/deploy.yml` which installs dependencies, builds the site, and publishes `_site` to GitHub Pages.
 
 For more information on GitHub Pages deployments, see the [official documentation](https://docs.github.com/en/pages).
 

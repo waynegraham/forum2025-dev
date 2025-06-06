@@ -1,4 +1,4 @@
-// Scroll top
+// Scroll to top button
 // @see https://tw-elements.com/docs/standard/components/scroll-back-to-top-button/
 const scrolltop = document.getElementById("btn-back-to-top");
 

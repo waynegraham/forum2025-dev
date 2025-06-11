@@ -5,7 +5,8 @@
     "distance": "0.4 mi",
     "type": "breakfast, brunch, American",
     "accessibility": ["wheelchair", "ada"],
-    "url": "https://www.samsno3.com/"
+    "url": "https://www.samsno3.com/",
+    "tags": ["breakfast", "brunch", "American"]
   },
   {
     "name": "West Saloon & Kitchen",
@@ -13,7 +14,8 @@
     "distance": "0.5 mi",
     "type": "American",
     "accessibility": ["wheelchair"],
-    "url": "https://westofsurrender.com/"
+    "url": "https://westofsurrender.com/",
+    "tags": ["American"]
   },
   {
     "name": "Rioja",
@@ -21,7 +23,8 @@
     "distance": "0.5 mi",
     "type": "Mediterranean",
     "accessibility": ["wheelchair", "gender-neutral"],
-    "url": "https://www.riojadenver.com/"
+    "url": "https://www.riojadenver.com/",
+    "tags": ["Mediterranean"]
   },
   {
     "name": "Tavernetta",
@@ -29,7 +32,8 @@
     "distance": "0.5 mi on foot, 2 mi by car",
     "type": "Italian",
     "accessibility": ["wheelchair", "gender-neutral"],
-    "url": "https://www.tavernettadenver.com/"
+    "url": "https://www.tavernettadenver.com/",
+    "tags": ["Italian"]
   },
   {
     "name": "Cherry Cricket - Ballpark Location",
@@ -37,7 +41,8 @@
     "distance": "0.7 mi on foot, 1 mi by car",
     "type": "Burgers",
     "accessibility": ["wheelchair"],
-    "url": "https://www.cherrycricket.com/"
+    "url": "https://www.cherrycricket.com/",
+    "tags": ["Burgers"]
   },
   {
     "name": "La Loma",
@@ -45,7 +50,8 @@
     "distance": "0.8 mi",
     "type": "Mexican",
     "accessibility": ["wheelchair", "ada"],
-    "url": "https://lalomamexican.com/"
+    "url": "https://lalomamexican.com/",
+    "tags": ["Mexican"]
   },
   {
     "name": "D'Corazon",
@@ -53,7 +59,8 @@
     "distance": "0.8 mi",
     "type": "Mexican",
     "accessibility": ["no-steps"],
-    "url": "https://dcorazonrestaurant.com/"
+    "url": "https://dcorazonrestaurant.com/",
+    "tags": ["Mexican"]
   },
   {
     "name": "Work & Class",
@@ -61,7 +68,8 @@
     "distance": "1 mi",
     "type": "New American, Latin American",
     "accessibility": ["wheelchair", "ada", "gender-neutral"],
-    "url": "https://workandclassdenver.com/"
+    "url": "https://workandclassdenver.com/",
+    "tags": ["New American", "Latin American"]
   },
   {
     "name": "Uchi",
@@ -69,7 +77,8 @@
     "distance": "1 mi",
     "type": "Sushi",
     "accessibility": ["wheelchair"],
-    "url": "https://uchi.uchirestaurants.com/location/sushi-denver/"
+    "url": "https://uchi.uchirestaurants.com/location/sushi-denver/",
+    "tags": ["Sushi"]
   },
   {
     "name": "Watercourse Foods",
@@ -77,7 +86,8 @@
     "distance": "1.2 mi",
     "type": "Vegan",
     "accessibility": ["wheelchair", "ada", "gender-neutral"],
-    "url": "https://watercoursefoods.com/"
+    "url": "https://watercoursefoods.com/",
+    "tags": ["Vegan"]
   },
   {
     "name": "City O' City",
@@ -85,7 +95,8 @@
     "distance": "1.3 mi",
     "type": "Vegan",
     "accessibility": ["wheelchair", "gender-neutral"],
-    "url": "https://www.cityocitydenver.com/"
+    "url": "https://www.cityocitydenver.com/",
+    "tags": ["Vegan"]
   },
   {
     "name": "Bang up to the Elephant",
@@ -93,7 +104,8 @@
     "distance": "1.4 mi",
     "type": "Vegan",
     "accessibility": ["wheelchair", "gender-neutral"],
-    "url": "https://banguptotheelephant.restaurant/"
+    "url": "https://banguptotheelephant.restaurant/",
+    "tags": ["Vegan"]
   },
   {
     "name": "Welton Street Cafe",
@@ -101,7 +113,8 @@
     "distance": "1.5 mi",
     "type": "Southern, Soul Food, Caribbean",
     "accessibility": ["wheelchair", "ada"],
-    "url": "https://weltonstreetcafe.com/"
+    "url": "https://weltonstreetcafe.com/",
+    "tags": ["Southern", "Soul Food", "Caribbean"]
   },
   {
     "name": "The Bindery",
@@ -109,7 +122,8 @@
     "distance": "1.6 mi",
     "type": "New American",
     "accessibility": ["wheelchair", "gender-neutral"],
-    "url": "https://www.thebinderydenver.com/"
+    "url": "https://www.thebinderydenver.com/",
+    "tags": ["New American"]
   },
   {
     "name": "Nana's Dim Sum & Dumplings",
@@ -117,7 +131,8 @@
     "distance": "1.8 mi",
     "type": "Dim Sum",
     "accessibility": ["wheelchair"],
-    "url": "https://www.nanadimsum.com/"
+    "url": "https://www.nanadimsum.com/",
+    "tags": ["Dim Sum"]
   },
   {
     "name": "Kawa Ni",
@@ -125,7 +140,8 @@
     "distance": "1.8 mi",
     "type": "Japanese pub",
     "accessibility": ["wheelchair"],
-    "url": "https://www.kawanidenver.com/"
+    "url": "https://www.kawanidenver.com/",
+    "tags": ["Japanese pub"]
   },
   {
     "name": "Brasserie Brixton",
@@ -133,7 +149,8 @@
     "distance": "2.6 mi",
     "type": "French",
     "accessibility": [],
-    "url": "https://www.brasseriebrixton.com/"
+    "url": "https://www.brasseriebrixton.com/",
+    "tags": ["French"]
   },
   {
     "name": "Angelo's Taverna",
@@ -141,7 +158,8 @@
     "distance": "2.7 mi",
     "type": "Italian, Seafood",
     "accessibility": ["wheelchair"],
-    "url": "https://angelostaverna.com/"
+    "url": "https://angelostaverna.com/",
+    "tags": ["Italian", "Seafood"]
   },
   {
     "name": "Culinary Dropout",
@@ -149,7 +167,8 @@
     "distance": "4 mi",
     "type": "New American",
     "accessibility": ["wheelchair"],
-    "url": "https://culinarydropout.com/locations/denver/"
+    "url": "https://culinarydropout.com/locations/denver/",
+    "tags": ["New American"]
   },
   {
     "name": "Le French",
@@ -157,7 +176,8 @@
     "distance": "4.1 mi",
     "type": "French-Senegalese",
     "accessibility": ["wheelchair"],
-    "url": "https://www.lefrenchdenver.com/location/le-french-9-co/"
+    "url": "https://www.lefrenchdenver.com/location/le-french-9-co/",
+    "tags": ["French-Senegalese"]
   },
   {
     "name": "Abyssinia Ethiopian Restaurant and Bar",
@@ -165,6 +185,7 @@
     "distance": "4.9 mi",
     "type": "Ethiopian",
     "accessibility": ["wheelchair"],
-    "url": "http://abyssiniaethiopianrestaurant.mobile-webview1.com/"
+    "url": "http://abyssiniaethiopianrestaurant.mobile-webview1.com/",
+    "tags": ["Ethiopian"]
   }
 ]

@@ -5,7 +5,8 @@
     "distance": "2.5 mi",
     "accessibility": ["wheelchair"],
     "notes": "Home of Denver Film, showing new releases and themed series.",
-    "url": "https://www.denverfilm.org/sie-filmcenter/"
+    "url": "https://www.denverfilm.org/sie-filmcenter/",
+    "tags": ["film", "art"]
   },
   {
     "name": "Bug Theater",
@@ -13,7 +14,8 @@
     "distance": "2.0 mi",
     "accessibility": ["wheelchair"],
     "notes": "Performance center for emerging local artists.",
-    "url": "https://www.bugtheatre.org/"
+    "url": "https://www.bugtheatre.org/",
+    "tags": ["performing arts", "theater"]
   },
   {
     "name": "Cleo Parker Robinson Dance Theater",
@@ -21,7 +23,20 @@
     "distance": "1.3 mi",
     "accessibility": ["ada"],
     "notes": "Seasonal dance performances and cultural events.",
-    "url": "https://www.cleoparkerdance.org/"
+    "url": "https://www.cleoparkerdance.org/",
+    "tags": ["dance", "performing arts"]
+  },
+  {
+    "name": "The Pearl",
+    "address": "2199 California St, Denver, CO 80205",
+    "notes": "Sapphic-focused bar/cafe with event spaces.",
+    "distance": "0.8 mi (5 min drive, 19 min walk)",
+    "accessibility": [],
+    "url": "https://www.thepearldenver.com/",
+    "tags": [
+      "bar",
+      "queer"
+    ]
   },
   {
     "name": "RISE Comedy",
@@ -29,7 +44,24 @@
     "distance": "0.5 mi",
     "accessibility": ["wheelchair"],
     "notes": "Denver’s only full-time improv comedy bar and theater.",
-    "url": "https://www.risecomedy.com/"
+    "url": "https://www.risecomedy.com/",
+    "tags": ["comedy"]
+  },
+  {
+    "name": "Denver Center for the Performing Arts",
+    "address": "1101 13th St, Denver, CO 80204",
+    "notes": "One of the nation\u2019s largest nonprofit theater organizations.",
+    "distance": "0.4 mi (2 min drive, 9 min walk)",
+    "url": "https://www.denvercenter.org/",
+    "accessibility": [
+      "wheelchair",
+      "ada",
+      "gender-neutral"
+    ],
+    "tags": [
+      "theater",
+      "broadway"
+    ]
   },
   {
     "name": "Curious Theatre Company",
@@ -37,7 +69,8 @@
     "distance": "1.3 mi",
     "accessibility": [],
     "notes": "Thought-provoking plays and support for emerging playwrights.",
-    "url": "https://www.curioustheatre.org/"
+    "url": "https://www.curioustheatre.org/",
+    "tags": ["theater", "performing arts"]
   },
   {
     "name": "Paramount Theatre",
@@ -45,7 +78,19 @@
     "distance": "0.5 mi",
     "accessibility": [],
     "notes": "Venue for live music, film screenings, and more.",
-    "url": "https://www.paramountdenver.com/"
+    "url": "https://www.paramountdenver.com/",
+    "tags": ["music", "film"]
+  },
+  {
+    "name": "Arvada Center",
+    "address": "6901 Wadsworth Blvd, Arvada, CO 80003",
+    "notes": "Caliber arts, humanities, and entertainment venue.",
+    "distance": "11.6 mi (21 min drive)",
+    "accessibility": [],
+    "url": "https://arvadacenter.org/",
+    "tags": [
+      "performing-arts"
+    ]
   },
   {
     "name": "Mission Ballroom",
@@ -53,7 +98,19 @@
     "distance": "2.5 mi",
     "accessibility": ["wheelchair"],
     "notes": "Denver's newest large-scale music venue.",
-    "url": "https://www.missionballroom.com/"
+    "url": "https://www.missionballroom.com/",
+    "tags": ["music", "concerts"]
+  },
+  {
+    "name": "Bluebird Theater",
+    "address": "3317 E Colfax Ave, Denver, CO 80206",
+    "notes": "Historic live music venue.",
+    "distance": "2.8 mi (12 min drive, 33 min bus)",
+    "accessibility": [],
+    "url": "https://www.bluebirdtheater.net/",
+    "tags": [
+      "music"
+    ]
   },
   {
     "name": "Fillmore Auditorium",
@@ -61,7 +118,21 @@
     "distance": "1.4 mi",
     "accessibility": [],
     "notes": "Historic venue for concerts in Capitol Hill.",
-    "url": "https://www.fillmoredenver.com/"
+    "url": "https://www.fillmoredenver.com/",
+    "tags": ["music", "concerts"]
+  },
+  {
+    "name": "Ball Arena",
+    "address": "1000 Chopper Cir, Denver, CO 80204",
+    "notes": "Major event venue for sports and music.",
+    "distance": "0.7 mi (15 min walk)",
+    "accessibility": [],
+    "url": "https://www.ballarena.com/",
+    "tags": [
+      "arena",
+      "sports",
+      "music"
+    ]
   },
   {
     "name": "Summit Music Hall",
@@ -69,7 +140,66 @@
     "distance": "0.4 mi",
     "accessibility": [],
     "notes": "Venue known for metal and punk rock shows.",
-    "url": "https://www.summitdenver.com/"
+    "url": "https://www.summitdenver.com/",
+    "tags": ["music", "concerts"]
+  },
+  {
+    "name": "Marquis Theater",
+    "address": "2009 Larimer St, Denver, CO 80205",
+    "notes": "Intimate venue and pizza joint.",
+    "distance": "0.4 mi (10 min walk)",
+    "accessibility": [],
+    "url": "https://www.marquisdenver.com/",
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "name": "Dazzle",
+    "address": "1080 14th St, Denver, CO 80202",
+    "notes": "Jazz club at Denver Performing Arts Complex.",
+    "distance": "0.3 mi (8 min walk)",
+    "accessibility": [],
+    "url": "https://dazzledenver.com/",
+    "tags": [
+      "jazz",
+      "music"
+    ]
+  },
+  {
+    "name": "Ophelia\u2019s Electric Soapbox",
+    "address": "1215 20th St. Denver, CO 80202",
+    "notes": "Music venue and restaurant in historic brothel.",
+    "distance": "0.3 mi (8 min walk)",
+    "accessibility": [],
+    "url": "https://opheliasdenver.com/",
+    "tags": [
+      "music",
+      "restaurant"
+    ]
+  },
+  {
+    "name": "Black Buzzard",
+    "address": "1624 Market Street, Denver, CO, 80202",
+    "notes": "Bar & grill meets music venue.",
+    "distance": "0.2 mi (5 min walk)",
+    "accessibility": [],
+    "url": "https://www.theblackbuzzard.com/event-calendar/",
+    "tags": [
+      "bar",
+      "music"
+    ]
+  },
+  {
+    "name": "Cervantes\u2019 Masterpiece Ballroom",
+    "address": "2635 WELTON ST. DENVER, CO 80205",
+    "notes": "Jam, electronic and hip-hop focused venue.",
+    "distance": "1.3 mi (30 min walk)",
+    "accessibility": [],
+    "url": "https://cervantesmasterpiece.com/",
+    "tags": [
+      "music"
+    ]
   },
   {
     "name": "Nocturne Jazz and Supper Club",
@@ -77,6 +207,71 @@
     "distance": "1.0 mi",
     "accessibility": [],
     "notes": "Jazz club with artist residencies and dinner service.",
-    "url": "https://nocturnejazz.com/"
+    "url": "https://nocturnejazz.com/",
+    "tags": ["jazz", "music", "restaurant"]
+  },
+  {
+    "name": "Larimer Lounge",
+    "address": "2721 Larimer St, Denver, CO 80205",
+    "notes": "Alternative bands in east downtown venue.",
+    "distance": "1.0 mi (24 min walk)",
+    "accessibility": [],
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "name": "Ogden Theatre",
+    "address": "935 E Colfax Ave, Denver, CO 80218",
+    "notes": "Diverse live music programming.",
+    "distance": "1.5 mi (37 min walk)",
+    "accessibility": [],
+    "tags": [
+      "music"
+    ]
+  },
+  {
+    "name": "Black Box",
+    "address": "314 E 13th Ave, Denver, CO 80203",
+    "notes": "DJ dance club with full bar and patio.",
+    "distance": "1.3 mi (32 min walk)",
+    "accessibility": [],
+    "tags": [
+      "dance",
+      "club"
+    ]
+  },
+  {
+    "name": "REI Flagship Store",
+    "address": "1416 Platte Street, Denver, CO 80202",
+    "notes": "Outdoor gear store in historic tramway building.",
+    "distance": "1.3 mi (26 min walk)",
+    "accessibility": [
+      "wheelchair"
+    ],
+    "tags": [
+      "retail",
+      "outdoor"
+    ]
+  },
+  {
+    "name": "Cherry Creek Trail",
+    "address": "",
+    "notes": "42-mile paved trail from Downtown Denver to Franktown, passing major city landmarks and parks.",
+    "distance": "",
+    "accessibility": [],
+    "tags": [
+      "trail",
+      "outdoor"
+    ]
+  },
+  {
+    "name": "Trails of Denver",
+    "address": "",
+    "notes": "Denver offers more than 90 miles of off-street, multi-use trails within city limits. Most trails follow urban waterways, offering safe and scenic routes through various neighborhoods.",
+    "distance": "",
+    "accessibility": [],
+    "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Urban-Parks-Trails/Trails#section-2",
+    "tags": ["trail", "outdoor"]
   }
 ]

@@ -3,10 +3,12 @@
     "name": "Meow Wolf",
     "address": "1338 1st St, Denver, CO 80204",
     "distance": "30 min walk, 6 min drive",
+    "priority": true,
     "cost": "$40-$50",
     "accessibility": ["wheelchair", "ada", "gender-neutral"],
     "notes": "Immersive art playground with four worlds of exploration",
-    "url": "https://meowwolf.com/denver"
+    "url": "https://meowwolf.com/denver",
+    "tags": ["art", "immersive", "interactive"]
   },
   {
     "name": "Denver Botanic Gardens (York Street)",
@@ -15,7 +17,17 @@
     "cost": "$16",
     "accessibility": ["wheelchair", "ada", "gender-neutral"],
     "notes": "Top-ranked gardens with events, children's garden, and coffee shop",
-    "url": "https://www.botanicgardens.org/york-street/"
+    "url": "https://www.botanicgardens.org/york-street/",
+    "tags": ["nature", "outdoors", "relaxation"]
+  },
+  {
+    "name": "Botanical Gardens (Chatfield Farms)",
+    "address": "8500 W Deer Creek Canyon Rd, Littleton, CO 80128",
+    "notes": "Seasonal hours. Garden park extension with events and trails.",
+    "url": "https://www.botanicgardens.org/chatfield-farms/",
+    "distance": "30 min drive",
+    "accessibility": [],
+    "tags": ["nature", "outdoors", "relaxation"]
   },
   {
     "name": "Museum of Nature and Science",
@@ -24,16 +36,19 @@
     "cost": "$25.95",
     "accessibility": ["wheelchair", "ada"],
     "notes": "Cosmos, gems, planetarium, and dinosaurs",
-    "url": "https://www.dmns.org/"
+    "url": "https://www.dmns.org/",
+    "tags": ["science", "family-friendly", "education"]
   },
   {
     "name": "Denver Art Museum",
     "address": "100 W 14th Ave. Pkwy. Denver, Colorado",
     "distance": "25 min walk, 6 min drive",
+    "priority": true,
     "cost": "$27 (non-resident), $22 (resident)",
     "accessibility": ["wheelchair", "ada", "gender-neutral"],
     "notes": "One of the largest art museums between Chicago and the West Coast",
-    "url": "https://denverartmuseum.org/"
+    "url": "https://denverartmuseum.org/",
+    "tags": ["art", "culture", "history"]
   },
   {
     "name": "Clyfford Still Museum",
@@ -42,7 +57,8 @@
     "cost": "$18 (non-resident), $15 (resident)",
     "accessibility": ["wheelchair"],
     "notes": "Abstract works in large formats with an interpretive approach",
-    "url": "https://clyffordstillmuseum.org/"
+    "url": "https://clyffordstillmuseum.org/",
+    "tags": ["art", "modern", "culture"]
   },
   {
     "name": "Denver Mint",
@@ -51,25 +67,48 @@
     "cost": "Free (guided tours only)",
     "accessibility": [],
     "notes": "History of the U.S. Mint and coin production",
-    "url": "https://www.usmint.gov/about/tours-and-locations/denver"
+    "url": "https://www.usmint.gov/about/tours-and-locations/denver",
+    "tags": ["history", "culture"]
+  },
+  {
+    "name": "Wings Over the Rockies Air & Space Museum",
+    "address": "7711 E Academy Blvd, Denver, CO 80230",
+    "notes": "Museum dedicated to aviation and space.",
+    "url": "https://wingsmuseum.org/",
+    "distance": "22 min drive",
+    "accessibility": ["wheelchair", "ada"],
+    "tags": ["museum"]
+  },
+  {
+    "name": "Molly Brown House Museum",
+    "address": "1340 Pennsylvania St, Denver, CO 80203",
+    "notes": "Historic home of Titanic survivor Margaret Brown.",
+    "distance": "34 min walk, 7 min drive",
+    "url": "https://mollybrown.org/",
+    "accessibility": ["gender-neutral"],
+    "tags": ["museum", "historic"]
   },
   {
     "name": "Museum of Illusions",
     "address": "951 16th Street Mall, Denver, CO",
     "distance": "6 min walk",
     "cost": "$24 regular, $34 flex",
+    "priority": true,
     "accessibility": ["wheelchair", "gender-neutral"],
     "notes": "Interactive illusion-based museum",
-    "url": "https://moidenver.com/"
+    "url": "https://moidenver.com/",
+    "tags": ["interactive", "fun", "family-friendly"]
   },
   {
     "name": "Denver Union Station",
     "address": "1701 Wynkoop, Denver Colorado 80202",
     "distance": "10 min walk",
     "cost": "Free",
+    "priority": true,
     "accessibility": ["wheelchair", "ada"],
     "notes": "Historic landmark and hub for shopping, dining, and transit",
-    "url": "https://unionstationindenver.com/"
+    "url": "https://unionstationindenver.com/",
+    "tags": ["history", "shopping", "dining"]
   },
   {
     "name": "History Colorado Center",
@@ -78,15 +117,73 @@
     "cost": "$15",
     "accessibility": ["wheelchair"],
     "notes": "Interactive exhibits about Colorado's heritage",
-    "url": "https://www.historycolorado.org/history-colorado-center"
+    "url": "https://www.historycolorado.org/history-colorado-center",
+    "tags": ["history", "culture", "education"]
   },
+
   {
     "name": "Civic Center Park & Golden Triangle Creative District",
     "address": "PO Box 40127, Denver, CO 80204",
+    "notes": "Public art, gardens, galleries, and cultural landmarks.",
     "distance": "23 min walk",
-    "cost": "Free",
+    "url": "https://www.goldentriangleofdenver.com/",
+    "priority": true,
     "accessibility": ["wheelchair"],
-    "notes": "Public art, gardens, and gallery access in downtown",
-    "url": "https://www.goldentriangleofdenver.com/"
+    "tags": ["outdoor", "art"]
+  },
+  {
+    "name": "16th Street Mall",
+    "address": "16th Street, Denver, CO 80265",
+    "notes": "Pedestrian-friendly mall with shops and free shuttles.",
+    "distance": "3 min walk",
+    "url": "https://www.the16thstreetmall.com/",
+    "priority": true,
+    "accessibility": ["wheelchair"],
+    "tags": ["shopping", "outdoor"]
+  },
+  {
+    "name": "Confluence Park",
+    "address": "2250 15th St, Denver, CO 80202",
+    "notes": "Creek and river park with trails and open space.",
+    "distance": "21 min walk, 6 min drive",
+    "url": "https://www.denver.org/listing/confluence-park/31553/",
+    "accessibility": ["wheelchair"],
+    "tags": ["outdoor"]
+  },
+  {
+    "name": "Denver Center for the Performing Arts",
+    "address": "1101 13th St, Denver, CO 80204",
+    "notes": "Broadway and local stage productions.",
+    "url": "https://www.denvercenter.org/",
+    "distance": "9 min walk",
+    "priority": true,
+    "accessibility": ["wheelchair", "ada", "gender-neutral"],
+    "tags": ["art"]
+  },
+  {
+    "name": "Tattered Cover Bookstore (Union Station)",
+    "address": "1701 Wynkoop Street, Denver, CO 80202",
+    "notes": "Beloved independent bookstore inside Union Station.",
+    "distance": "10 min walk",
+    "accessibility": ["wheelchair"],
+    "tags": ["bookstore", "retail"]
+  },
+  {
+    "name": "Denver Public Library \u2013 Central Library",
+    "address": "10 W 14th Ave, Denver, CO 80204",
+    "notes": "Public library with art and research collections.",
+    "distance": "24 min walk, 7 min drive",
+    "url": "https://www.denverlibrary.org/locations/central-library",
+    "accessibility": ["wheelchair"],
+    "tags": ["library", "art"]
+  },
+  {
+    "name": "Auraria Library",
+    "address": "1100 Lawrence Street Denver, CO 80204",
+    "notes": "Academic library for CU Denver, MSU Denver, and CCD.",
+    "distance": "13 min walk, 6 min drive",
+    "url": "https://library.auraria.edu/",
+    "accessibility": ["wheelchair", "gender-neutral"],
+    "tags": ["library"]
   }
 ]

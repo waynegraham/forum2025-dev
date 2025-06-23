@@ -54,7 +54,7 @@
     "stylelint-config-tailwindcss": "^1.0.0",
     "html-validate": "^9.7.0",
     "jest-axe": "^10.0.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "jest-environment-jsdom": "^30.0.2"
   },
   "dependencies": {
